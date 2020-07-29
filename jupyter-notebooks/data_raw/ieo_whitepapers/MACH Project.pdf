@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>NoSuchBucket</Code><Message>The specified bucket does not exist</Message><BucketName>op-mach-bucket</BucketName><RequestId>5K5VFS5S2J9Y5WBR</RequestId><HostId>VY1H2k1Fi6Toa1FO16eOSzGxAAot+j1eVeD85nUHrycLpMqKsRxsDKb4U3b9463tlHWORlZa2nc=</HostId></Error>

@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KNKMBBN');</script>
+<!-- End Google Tag Manager -->
+
+<svg id="svg-symbols" xmlns="http://www.w3.org/2000/svg">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
+
+	<!-- ARROW -->
+	<symbol id="arrow-anchor" viewBox="0 0 15.4 9.1">
+		<path d="M7.7 9.1L0 1.4 1.4 0l6.3 6.3L14 0l1.4 1.4-7.7 7.7z"/>
+	</symbol>
+
+	<symbol id="arrow-down" viewBox="0 0 28 24">
+		<path d="M14 24L0 0h28z"/>
+	</symbol>
+
+	<symbol id="arrow-download" viewBox="0 0 52.7 66.56">
+		<path d="M0 60h52.7v6.57H0zm26.35-9.56L52.7 24.1H37.5V0H15.19v24.1H0z"/>
+	</symbol>
+
+	<symbol id="arrow-link" viewBox="0 0 24 28">
+		<path d="M24 14L0 28V0l24 14z"/>
+	</symbol>
+
+	<symbol id="arrow-pagetop" viewBox="0 0 30.28 17.26">
+		<path d="M28.16 17.26L15.14 4.24 2.12 17.26 0 15.14 15.14 0l15.14 15.14-2.12 2.12z"/>
+	</symbol>
+
+
+	<!-- NEWS ICON -->
+
+	<symbol id="icon-logo" viewBox="0 0 65.2 48.1">
+		<path d="M64.9 20.5H51v7.2h6.6a16.5 16.5 0 1 1-3.5-14.4h8.6A23.8 23.8 0 0 0 30.9 2.7a23.4 23.4 0 0 0-13 21.3 23.6 23.6 0 1 0 47.3-.1 18.7 18.7 0 0 0-.3-3.4zM46.8 20.2H8a16 16 0 0 1 27.8-6.8l.1.1h8.9l-.2-.3A23.4 23.4 0 0 0 23.6.1 23.7 23.7 0 0 0 0 24.1a21.9 21.9 0 0 0 .3 3.6v.2h38.9a16.4 16.4 0 0 1-15.6 12.6 16 16 0 0 1-12.2-5.7l-.1-.1H2.4l.2.3a23.4 23.4 0 0 0 21 13.1c13 0 23.6-10.8 23.6-24.1a21.9 21.9 0 0 0-.3-3.6z"/>
+	</symbol>
+
+
+	<!-- NAVIGATION MENU ICON -->
+
+	<symbol id="icon-white-paper" viewBox="0 0 52.7 66.56">
+		<path d="M0 60h52.7v6.57H0zm26.35-9.56L52.7 24.1H37.5V0H15.19v24.1H0z"/>
+	</symbol>
+
+	<symbol id="icon-token-sale" viewBox="0 0 127.42 66.56">
+		<path d="M42.82 36.34a8.86 8.86 0 0 1 .57 3.31 7.93 7.93 0 0 1-2.2 5.79A9.35 9.35 0 0 1 35.58 48v3.94h-4.11V48a9.43 9.43 0 0 1-5.95-2.93 9.68 9.68 0 0 1-2.24-6.65V38h5.79v.47A5.08 5.08 0 0 0 30.21 42a4.12 4.12 0 0 0 3.22 1.22 4.47 4.47 0 0 0 3.14-1 3.29 3.29 0 0 0 1-2.55 3.38 3.38 0 0 0-.94-2.47 9.2 9.2 0 0 0-3.4-1.88 28.81 28.81 0 0 1-4-1.67 8.42 8.42 0 0 1-4.89-7.79 8.1 8.1 0 0 1 2.15-5.76 8.9 8.9 0 0 1 5.32-2.62V13.1H36v4.45a8.32 8.32 0 0 1 5.26 3.05 10.6 10.6 0 0 1 2 6.64v.47h-5.78v-.47a5.77 5.77 0 0 0-1-3.66 3.18 3.18 0 0 0-2.68-1.27 3.61 3.61 0 0 0-2.65.91 3.42 3.42 0 0 0-.93 2.62 3.23 3.23 0 0 0 .92 2.44 10 10 0 0 0 3.44 1.88 30.63 30.63 0 0 1 4.07 1.76 10.43 10.43 0 0 1 2.56 1.91 7.63 7.63 0 0 1 1.61 2.51zm84.6-3.06a33.28 33.28 0 0 1-63.71 13.46 33.28 33.28 0 1 1 0-26.92 33.28 33.28 0 0 1 63.71 13.46zm-66.56 0a27.58 27.58 0 1 0-27.58 27.58 27.61 27.61 0 0 0 27.58-27.58zm60.86 0a27.58 27.58 0 1 0-27.58 27.58 27.61 27.61 0 0 0 27.58-27.58zm-16.36 1a7.5 7.5 0 0 1 1.38 4.51 8.21 8.21 0 0 1-2.74 6.64c-1.77 1.48-4.3 2.25-7.51 2.29v6.82h-4.6v-6.81h-6.8V17.78h6.75v-4.94h4.6v5a12 12 0 0 1 6.85 2.05A7.44 7.44 0 0 1 106 26.1a6.72 6.72 0 0 1-1.12 3.9 7.08 7.08 0 0 1-2.31 2.13 6.54 6.54 0 0 1 2.79 2.15zM95.55 30a5.26 5.26 0 0 0 3.37-1 3.16 3.16 0 0 0 1.15-2.65 3.24 3.24 0 0 0-1-2.73 5.76 5.76 0 0 0-3.52-.86h-4.47V30zm5.22 8.8c0-2.77-1.32-4.09-4.16-4.15h-5.53v8.12h5.12a5 5 0 0 0 3.39-1.06 3.66 3.66 0 0 0 1.18-2.92z"/>
+	</symbol>
+
+	<symbol id="icon-ambassador-program" viewBox="0 0 66.56 66.56">
+		<path d="M62.1 16.6a32.36 32.36 0 0 1 4.46 16.68A32.52 32.52 0 0 1 62.1 50 33.17 33.17 0 0 1 50 62.1a32.52 32.52 0 0 1-16.71 4.46 32.46 32.46 0 0 1-16.7-4.46A33.2 33.2 0 0 1 4.46 50 32.62 32.62 0 0 1 0 33.28a32.56 32.56 0 0 1 4.46-16.7A33.23 33.23 0 0 1 16.58 4.46 32.56 32.56 0 0 1 33.28 0 32.62 32.62 0 0 1 50 4.46 33.1 33.1 0 0 1 62.1 16.6zm-3.29 27.47a27.4 27.4 0 0 0 0-21.56 28.17 28.17 0 0 0-5.92-8.84 28 28 0 0 0-8.84-5.91 27.35 27.35 0 0 0-21.54 0A27.29 27.29 0 0 0 7.76 22.51a27.35 27.35 0 0 0 0 21.54 28 28 0 0 0 5.91 8.84 28.17 28.17 0 0 0 8.84 5.92 27.35 27.35 0 0 0 21.54 0 27.46 27.46 0 0 0 14.76-14.74zM48.28 18.29a5.27 5.27 0 0 1 1.64 3.9 5.55 5.55 0 1 1-9.47-3.92 5.34 5.34 0 0 1 3.93-1.63 5.24 5.24 0 0 1 3.9 1.65zm-22.19 0a5.23 5.23 0 0 1 1.64 3.9 5.53 5.53 0 0 1-5.54 5.54 5.55 5.55 0 0 1-5.55-5.54 5.57 5.57 0 0 1 5.55-5.55 5.24 5.24 0 0 1 3.9 1.65zM49.14 41a16 16 0 0 1-6 8.45 16.29 16.29 0 0 1-9.88 3.21 16.29 16.29 0 0 1-9.88-3.21 16 16 0 0 1-6-8.45 2.7 2.7 0 0 1 .17-2.1 2.8 2.8 0 0 1 3.75-1.19 2.62 2.62 0 0 1 1.37 1.64 11.08 11.08 0 0 0 10.57 7.76 11.08 11.08 0 0 0 10.58-7.76 2.6 2.6 0 0 1 1.38-1.64 2.73 2.73 0 0 1 2.13-.18A2.76 2.76 0 0 1 49.14 41z"/>
+	</symbol>
+
+	<symbol id="icon-faq" viewBox="0 0 66.56 66.56">
+		<path d="M33.28 66.56a32.66 32.66 0 0 1-16.71-4.47A33.27 33.27 0 0 1 4.47 50 32.66 32.66 0 0 1 0 33.28a32.66 32.66 0 0 1 4.47-16.71 33.27 33.27 0 0 1 12.1-12.1A32.66 32.66 0 0 1 33.28 0 32.66 32.66 0 0 1 50 4.47a33.17 33.17 0 0 1 12.1 12.12 32.56 32.56 0 0 1 4.47 16.69A32.66 32.66 0 0 1 62.09 50 33.19 33.19 0 0 1 50 62.09a32.66 32.66 0 0 1-16.72 4.47zm0-61.73A28 28 0 0 0 19 8.64 28.43 28.43 0 0 0 8.64 19a28 28 0 0 0-3.81 14.28 27.94 27.94 0 0 0 3.81 14.28A28.43 28.43 0 0 0 19 57.92a28 28 0 0 0 14.28 3.81 27.94 27.94 0 0 0 14.28-3.81 28.43 28.43 0 0 0 10.36-10.36 27.94 27.94 0 0 0 3.81-14.28A27.89 27.89 0 0 0 57.93 19 28.41 28.41 0 0 0 47.56 8.64a27.94 27.94 0 0 0-14.28-3.81zm14.89 19a10.76 10.76 0 0 0-2.23-6.55 15.6 15.6 0 0 0-12.4-6.31q-9.76 0-14.91 8.56a1.16 1.16 0 0 0 .37 1.64l5.31 4a1.12 1.12 0 0 0 .76.24 1.19 1.19 0 0 0 1-.49 20.07 20.07 0 0 1 3.45-3.69 6.38 6.38 0 0 1 6.89.08 2.9 2.9 0 0 1 1.51 2.37 3.63 3.63 0 0 1-.8 2.45A8.17 8.17 0 0 1 34.35 28a13.88 13.88 0 0 0-4.65 3.47 7.48 7.48 0 0 0-2.11 5v1.45a1.25 1.25 0 0 0 .36.92 1.27 1.27 0 0 0 .93.36h7.72a1.23 1.23 0 0 0 1.28-1.28 3.79 3.79 0 0 1 .87-2 6.65 6.65 0 0 1 2.19-2c.85-.49 1.51-.87 2-1.15a16.35 16.35 0 0 0 1.84-1.41 8.93 8.93 0 0 0 1.79-1.92 10.54 10.54 0 0 0 1.1-2.44 10.21 10.21 0 0 0 .5-3.22zM38.26 54v-8.3a1.33 1.33 0 0 0-.39-1 1.34 1.34 0 0 0-1-.39H28.6a1.34 1.34 0 0 0-1 .39 1.33 1.33 0 0 0-.39 1V54a1.35 1.35 0 0 0 .39 1 1.33 1.33 0 0 0 1 .38h8.28a1.33 1.33 0 0 0 1-.38 1.35 1.35 0 0 0 .38-1z"/>
+	</symbol>
+
+	<symbol id="icon-sign-in" viewBox="0 0 69.48 66.56">
+		<path d="M69.48 66.56H0V55.77c0-6 4.29-10.76 12.74-14.09a58.44 58.44 0 0 1 22-4.69 59.25 59.25 0 0 1 22 4.61c8.45 3.4 12.74 8.16 12.74 14.17zM5.63 60.93h58.21v-5.16c0-3.48-3.09-6.49-9.2-9a53.86 53.86 0 0 0-19.9-4.2 52.77 52.77 0 0 0-19.88 4.33c-6.09 2.41-9.19 5.38-9.19 8.86zm29.11-24.88A17.47 17.47 0 0 1 22 30.79 17.44 17.44 0 0 1 16.71 18 17.47 17.47 0 0 1 22 5.26 17.47 17.47 0 0 1 34.74 0 17.44 17.44 0 0 1 47.5 5.26 17.47 17.47 0 0 1 52.76 18a17.44 17.44 0 0 1-5.26 12.79 17.44 17.44 0 0 1-12.76 5.26zm0-30.42A11.85 11.85 0 0 0 26 9.24 11.87 11.87 0 0 0 22.35 18 11.85 11.85 0 0 0 26 26.81a11.85 11.85 0 0 0 8.78 3.61 11.85 11.85 0 0 0 8.78-3.61A11.85 11.85 0 0 0 47.13 18a11.87 11.87 0 0 0-3.61-8.79 11.85 11.85 0 0 0-8.78-3.58z"/>
+	</symbol>
+
+	<symbol id="icon-language" viewBox="0 0 66.56 66.56">
+		<path d="M33.28 0A32.06 32.06 0 0 1 56.8 9.77a32 32 0 0 1 9.76 23.51A32.05 32.05 0 0 1 56.8 56.8a32.05 32.05 0 0 1-23.52 9.76A32 32 0 0 1 9.77 56.8 32.06 32.06 0 0 1 0 33.28 32 32 0 0 1 9.77 9.77 32 32 0 0 1 33.28 0zm23.13 20A25.36 25.36 0 0 0 41.88 8.12 48.82 48.82 0 0 1 46.56 20zM33.28 6.72A47 47 0 0 0 26.88 20h12.81a47.35 47.35 0 0 0-6.41-13.28zM7.5 40h11.25a48.28 48.28 0 0 1 0-13.44H7.5a34.44 34.44 0 0 0-.94 6.72A34.44 34.44 0 0 0 7.5 40zm2.66 6.56a25.26 25.26 0 0 0 14.53 11.88A48.3 48.3 0 0 1 20 46.56zM20 20a48.45 48.45 0 0 1 4.69-11.88A25.3 25.3 0 0 0 10.16 20zm13.28 39.84a47.22 47.22 0 0 0 6.41-13.28H26.88a46.91 46.91 0 0 0 6.4 13.28zM41.09 40a46.43 46.43 0 0 0 .47-6.72 46.43 46.43 0 0 0-.47-6.72H25.47a48.28 48.28 0 0 0 0 13.44zm.79 18.44a25.32 25.32 0 0 0 14.53-11.88h-9.85a48.67 48.67 0 0 1-4.68 11.88zM47.81 40h11.25a34.44 34.44 0 0 0 .94-6.72 34.44 34.44 0 0 0-.94-6.72H47.81a48.28 48.28 0 0 1 0 13.44z"/>
+	</symbol>
+
+
+	<!-- SOCIAL ICON -->
+
+	<symbol id="icon-social-telegram" viewBox="0 0 42.31 38">
+		<path d="M39.17 0a4.85 4.85 0 0 0-1.51.37c-.47.18-2.67 1.11-6 2.51l-12 5.06-17.14 7.21h.1a5.16 5.16 0 0 0-1.2.61 3.26 3.26 0 0 0-.95.92A2.7 2.7 0 0 0 0 18.45a3.29 3.29 0 0 0 1.45 2.27 4.88 4.88 0 0 0 1.09.57L10.51 24c.36 1.15 2.43 7.94 2.92 9.5a5.85 5.85 0 0 0 .94 2 2.4 2.4 0 0 0 .63.5l.3.14a.38.38 0 0 0 .1 0h-.08.26a2.7 2.7 0 0 0 2.27-.4h.05l4.7-4.27 7.86 6 .18.08a4.15 4.15 0 0 0 4.17-.39A4.19 4.19 0 0 0 36 35.61l.06-.14 6.1-31.14a4.47 4.47 0 0 0 0-2.18A3 3 0 0 0 40.91.44 3.15 3.15 0 0 0 39.17 0zM39 3.34a1.35 1.35 0 0 1 0 .29l-6 30.8a.76.76 0 0 1-.19.24c-.13.1-.23.17-.76 0l-9.62-7.38-5.81 5.3 1.22-7.8 15.68-14.67c.64-.6.43-.73.43-.73 0-.73-1-.21-1-.21l-19.8 12.27-9.5-3.2h.06l17.1-7.21 12-5.06 6-2.49c.19-.15.1-.15.19-.15z"/>
+	</symbol>
+
+	<symbol id="icon-social-facebook" viewBox="0 0 20.77 40">
+		<path d="M13.48 40V21.75h6.13l.91-7.11h-7V10.1c0-2.06.57-3.46 3.53-3.46h3.76V.28A49.3 49.3 0 0 0 15.29 0C9.86 0 6.14 3.31 6.14 9.4v5.24H0v7.11h6.14V40z"/>
+	</symbol>
+
+	<symbol id="icon-social-twitter" viewBox="0 0 49.22 40">
+		<path d="M49.22 4.74a20.5 20.5 0 0 1-5.8 1.59A10.09 10.09 0 0 0 47.86.74a20.06 20.06 0 0 1-6.41 2.45A10.1 10.1 0 0 0 24 10.1a10.26 10.26 0 0 0 .26 2.3A28.66 28.66 0 0 1 3.43 1.85a10.1 10.1 0 0 0 3.12 13.48A10.1 10.1 0 0 1 2 14.07v.12a10.11 10.11 0 0 0 8.1 9.91 10.16 10.16 0 0 1-2.66.35 9.87 9.87 0 0 1-1.9-.18 10.1 10.1 0 0 0 9.43 7A20.26 20.26 0 0 1 2.41 35.6 19.14 19.14 0 0 1 0 35.46 28.55 28.55 0 0 0 15.48 40c18.57 0 28.73-15.39 28.73-28.73V9.96a20.5 20.5 0 0 0 5.01-5.22z"/>
+	</symbol>
+</svg>
+<title>SocialGood Whitepaper | The Cryptocurrency for Better Society</title>
+<meta property="og:type" 		content="website"/>
+<meta property="og:url" 		content="https://socialgood-whitepaper.com/"/>
+<meta property="og:image" 		content="https://socialgood-whitepaper.com/ogp_img.png"/>
+<meta property="og:site_name" 	content="SocialGood Whitepaper | The Cryptocurrency for Better Society"/>
+<meta property="og:description" content="The expansion of holders will make its price higher!" />
+<meta property="article:publisher" content="https://www.facebook.com/SoichiroTakaoka" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@SocialGood_io" />
+<meta name="twitter:title" content="SocialGood Whitepaper | The Cryptocurrency for Better Society" />
+<meta name="twitter:url" content="https://socialgood-whitepaper.com/" />
+<meta name="twitter:description" content="The expansion of holders will make its price higher!" />
+<meta name="twitter:image" content="https://socialgood-whitepaper.com/ogp_img.png" />
+
+<link rel="stylesheet" href="/common/css/common.css">
+<link rel="stylesheet" href="/common/css/style.css" type="text/css" media="screen,print" />
+<link rel="stylesheet" href="/common/css/add.css" type="text/css" media="screen,print" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,600i,700">
+<link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css"/>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Roboto+Condensed" rel="stylesheet">
+
+</head>
+
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNKMBBN"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+	<header>
+
+		<div id="header">
+
+			<div id="header-logo">
+				<a href="/"><img src="/common/images/logo.svg" alt="SocialGood Foundation"></a>
+	            <p class="sp">Registration: U.S. SEC<br>Business Model Patents Granted</p>
+			</div>
+
+			<div id="header-menu">
+
+				<dl id="header-company">
+					<dt id="header-company-name">Social Good Foundation Inc.</dt>
+					<dd id="header-company-address">
+						<address>18F West Tower Otemachi<br>First Square, 1-5-1 Otemachi,<br>Chiyoda-ku, Tokyo, Japan</address>
+	                    <p>Registration: U.S. SEC<br>Business Model Patents Granted</p>
+					</dd>
+					<dd id="header-company-social" class="social-icons">
+						<a target="_blank" href="https://t.me/Socialgood_io"><svg class="icon icon-social-telegram"><use xlink:href="#icon-social-telegram"></use></svg></a>
+						<a target="_blank" href="https://www.facebook.com/SoichiroTakaoka"><svg class="icon icon-social-facebook"><use xlink:href="#icon-social-facebook"></use></svg></a>
+						<a target="_blank" href="https://twitter.com/SoichiroTakaoka"><svg class="icon icon-social-twitter"><use xlink:href="#icon-social-twitter"></use></svg></a>
+					</dd>
+				</dl><!-- #header-company -->
+
+				<nav id="header-nav-global">
+					<ul class="flex" itemscope itemtype="http://schema.org/SiteNavigationElement">
+						<li itemprop="name">
+							<a href="/" itemprop="url">
+								<svg class="icon icon-white-paper"><use xlink:href="#icon-white-paper"></use></svg>
+								<div>Whitepaper</div>
+							</a>
+						</li>
+												<li>
+							<span>
+								<svg class="icon icon-language"><use xlink:href="#icon-language"></use></svg>
+								<div>
+									Language
+									<svg class="icon arrow-down"><use xlink:href="#arrow-down"></use></svg>
+								</div>
+							</span>
+							<ul>
+								<li itemprop="name"><a href="/jp/" itemprop="url">JP</a></li>
+								<li class="selected" itemprop="name"><a href="/" itemprop="url">EN</a></li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+
+			</div>
+
+			<div id="header-menu-button" class="header-menu-touch"></div>
+			<div id="header-menu-screen" class="header-menu-touch"></div>
+
+		</div>
+
+	</header>
+
+
+<main id="base">
+
+<div class="box">
+
+
+<div class="inner3">
+
+
+<h3>Contents</h3>
+
+<div id="wpw_contentsArea">
+
+<div id="wpw_contentsList">
+
+<p><a href="/">Summary</a></p>
+<ol class="list">
+<li><a href="/chapter1/">Why is SocialGood Able to Improve Society?</a></li>
+<li><a href="/chapter2/">Why Will SocialGood Continue to Grow in Popularity Globally?</a></li>
+<li><a href="/chapter3/">SG’s Patented Asset Value Rising Mechanism</a></li>
+<li><a href="/chapter4/">Coin Issuance Plan</a></li>
+<li><a href="/chapter5/">History & Achievements</a></li>
+<li><a href="/chapter6/">Roadmap</a></li>
+<li><a href="/chapter7/">Team</a></li>
+</ol>
+<p>
+<a href="/reference/">Reference Information</a>
+</p>
+<p>
+<a href="/disclamer/">Disclaimer</a>
+</p>
+<div id="google_translate_element"></div>
+<script type="text/javascript">
+function googleTranslateElementInit() {
+new google.translate.TranslateElement({pageLanguage: 'en', autoDisplay: false}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<!--<div id="google_translate_Area">
+                    <div id="google_translate_element"></div><script type="text/javascript">
+            function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false}, 'google_translate_element');
+            }
+            </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    </div>-->
+
+</div>
+
+<section id="chapterLink">
+<div id="wpw_contentsTxt">
+<h3>Summary</h3>
+<h4>Features of SocialGood as an Asset</h4>
+<ul>
+<li>SocialGood is a cryptoasset that is making society better.</li>
+<li>SocialGood works in a way at which the more users increase, the more the asset value increases. SocialGood has received multiple patents, including patents for its business model and for a mechanism to accumulate cryptoassets by using credit cards and smartphone payments. SocialGood is considered a coin with rare value.</li>
+    <li>SocialGood is an asset that everyone can receive for free just by shopping at partner retail stores, such as Amazon, Apple, Alibaba, eBay, Lazada, Nike etc. (Shopping Mining&trade;).</li>
+    <li>The operating company guarantees the fiat exchange value of the SocialGood granted by Shopping Mining&trade;.</li>
+    <li>Since assets are provided at zero cost, it is certain that all users will profit. As a result, users will tend to increase, creating a virtuous cycle at which the asset value of SocialGood can be expected to rise.</li>
+    <li>Given the current coin’s market conditions, it is possible that the SocialGood coin’s market cap could increase by US$13,600 with every additional user (as of September 2019).</li>
+</ul>
+
+<h4>Progress of SocialGood</h4>
+<ul>
+    <li>From March 2019, SocialGood has partnered with large global retail companies and started Shopping Mining™ (excluding residents in Japan). Currently, there are already over 90,000 users (as of December 2019, the acquisition of new users was temporarily put on hold at this time.).</li>
+    <li>Since these assets can be obtained through daily consumption, it is expected that they will become popular among general consumers, and not only to cryptoasset investors.</li>
+
+</ul>
+
+<h4>SocialGood's Operations</h4>
+<ul>
+    <li>The operating company is funded by profits from coin issuance and advertising revenue from partner retail stores.</li>
+    <li>The operating company will automatically donate to social contribution organizations a portion of the total amount that users purchased while shopping.</li>
+    <li>The team has an incentive to raise the market cap of the coin, and, with a long-term perspective in mind, management is focused on maintaining and improving SocialGood's asset value.</li>
+    <li>The operating company is supported by a Japanese fintech group company which was founded in 2005 and has a subsidiary registered with the Financial Services Agency (FSA). This group has achieved over US$930 million worth of investment advisory contracts with wealthy clients and has succeeded in becoming Japan's largest marketplace for high net worth individuals, with members’ totals assets surpassing US$10 billion.</li>
+</ul>
+
+</div>
+</section>
+</div>
+
+</div>
+<div class="inner3">
+<div id="pageNation">
+    <ul class="list">
+        <li></li>
+        <li><a href="/chapter1/">>> Next chapter</a></li>
+    </ul>
+</div>
+
+
+</div>
+</div><!-- eof box -->
+
+</main><!-- eof base -->
+
+
+
+
+<footer class="font_size">
+
+<div id="footer">
+	<div class="outer" id="footer-block-pagetop">
+		<a href="#"><svg><use xlink:href="#arrow-pagetop"></use></svg></a>
+	</div><!-- outer -->
+<div class="outer" id="footer-block-main">
+		<div class="inner3 mb0">
+			
+			<section>
+				<dl id="footer-company">
+					<dt id="footer-company-name">Social Good Foundation Inc.</dt>
+					<dd id="footer-company-address">
+						<address>18F West Tower Otemachi First Square, 1-5-1 Otemachi, Chiyoda-ku, Tokyo, Japan</address>
+					</dd>
+					<dd id="footer-company-social" class="social-icons">
+						<a target="_blank" href="https://twitter.com/socialgood_io"><svg class="icon icon-social-twitter"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-social-twitter"></use></svg></a>
+						<a target="_blank" href="https://t.me/Socialgood_io"><svg class="icon icon-social-telegram"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-social-telegram"></use></svg></a>
+											</dd>
+				</dl><!-- #footer-company -->
+
+				<nav id="footer-nav-extra">
+					<ul class="footer-nav">
+						<li><a href="https://socialgood-foundation.com/privacypolicy/">Privacy Policy</a></li>
+						<li><a href="https://socialgood-foundation.com/terms/">Terms & Conditions</a></li>
+						<li><a href="https://socialgood-foundation.com/legal/">Legal</a></li>
+						<li><a href="https://socialgood-foundation.com/contact/">Contact</a></li>
+					</ul>
+				</nav><!-- #footer-nav-extra -->
+
+				<small id="footer-copyright">
+					&copy; 2020 Social Good Foundation Inc.
+				</small>
+			</section>
+
+		</div><!-- inner -->
+	</div>
+
+	<div class="outer" id="footer-block-notes">
+		<div class="inner3 mb0">
+
+			<section>
+				<p>
+					Corporations quoted on the Home Page are those who have had business relationships with the key companies in the SocialGood Project. However, whether or not the corporations may participate in the Project purely is up to their own decisions. We would, therefore, like to refrain from mentioning it here at this moment of time. The Media exposure and Press release include articles on the key companies in the Social Good Ecosystem. Please refer to the latest White Paper and the latest Token Sale Terms & Conditions for details of the Project and the Token Sale. Any information herein does not implicate nor represent nor guarantee whatsoever such as the price rise of SocialGood and “listing” of SocialGood on exchanges managed by cryptocurrency exchangers at all.
+				</p>
+
+			</section>
+
+		</div><!-- inner -->
+	</div>
+
+</div><!-- #footer -->
+
+</footer>
+
+<!-- JavaScript -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+<script src="/common/js/jquery.easing.1.3.js"></script>
+<script src="/common/js/common.js"></script>
+
+
+</body>
+</html>

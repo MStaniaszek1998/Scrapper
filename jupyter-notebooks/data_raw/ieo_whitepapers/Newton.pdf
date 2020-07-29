@@ -1,0 +1,674 @@
+
+
+
+<!DOCTYPE html>
+<html None>
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+        <meta name="description" content="牛顿-社群经济基础设施，提供治理、协作和激励。牛顿致力于打造高效协作、低成本、高度自动化的社群经济，人人贡献、人人受益。"/>
+        <meta name="author" content="Newton"/>
+        <meta name="keywords" content="牛顿，牛顿项目，newton,newtonproject.org，NewChain,NewNET,协议经济，原子哈希,NewIoT,NewAI,超级交换协议，自金融，NNIO，可信物理通道，数字营销，供应链，区块链，区块链技术，智能合约，开源社区，数字资产，token,blockchain"/>
+        
+        <meta name="msvalidate.01" content="1EE88E54A4D4215A22A517182AC3D54D" />
+        <meta property="og:image" content="https://www.newtonproject.org/static/images/pic300.jpg?v=399">
+        <meta name="google-site-verification" content="e7s06YYNkWgd-HxyaCjP_wwcaqROm1sYRQhPUkbLPjk" />
+        <title>
+白皮书
+ | 牛顿</title>
+
+        <!-- Fav and touch icons -->
+        <meta name="apple-mobile-web-app-capable" content="yes"/>
+        <!-- CSS -->
+        <!-- HTML5 IE Enabling Script -->
+        <link rel="shortcut icon" href="https://www.newtonproject.org/static/images/logo_v3/favicon.png?v=449" type="image/x-icon" />
+    	<!--==== style css ====-->
+        <link href="https://www.newtonproject.org/static/css/bootstrap.min.css?v=449" rel="stylesheet" />
+        <link href="https://www.newtonproject.org/static/css/libs/nsprogress/nsprogress.css?v=449" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="https://www.newtonproject.org/static/css/style.css?v=449" />
+        <script src="https://www.newtonproject.org/static/js/jquery-2.1.4.min.js?v=449"></script>
+        <script src="https://www.newtonproject.org/static/js/qrcode.min.js?v=449"></script>
+        <script>var zhMessages = "https://www.newtonproject.org/static/js/jquery-validate-messages.zh.js?v=449"</script>
+        <script src="https://www.newtonproject.org/static/js/bootstrap.min.js?v=449" type="text/javascript"></script>
+        <script src="https://www.newtonproject.org/static/js/jquery.i18n.properties.js?v=449" type="text/javascript"></script>
+        <script src="https://www.newtonproject.org/static/js/index.js?v=449" type="text/javascript"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116218760-1"></script>
+        
+        
+        
+<link rel="stylesheet" href="https://www.newtonproject.org/static/css/whitepaper.css?v=449">
+
+
+	    <!--[if lt IE 9]>
+            <script src="https://www.newtonproject.org/static/js/html5shiv/3.7.2/html5shiv.min.js?v=449"></script>
+            <script src="https://www.newtonproject.org/static/js/respond/1.4.2/respond.min.js?v=449"></script>
+            <![endif]-->
+    </head>
+    <body>
+        <div style="margin:0 auto; width:0px;height:0px;overflow:hidden;">
+            <img src="https://www.newtonproject.org/static/images/pic300.jpg?v=399">
+        </div>
+        
+        
+        
+
+        
+        
+
+
+
+<header id="normal">
+    <div class="navFixed"></div>
+    <nav class="navbar navbar-custom sticky-navigation NavBg bg-gray">
+        <div class="container">
+
+            <div class="navbar-header">
+                <a class="navbar-brand nav-logo page-scroll" href="https://www.newtonproject.org">
+                    <img class="logo-pc" src="https://www.newtonproject.org/static/images/logo_v3/logo.svg?v=449" alt="Newton"/>
+                </a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse" onclick="changeToggle()">
+                    <span class="sr-only">Toggle navigation</span>
+                    <i class="iconfont toggle-nav"></i>
+                </button>
+
+            </div><!-- /.logo -->
+
+            <div id="drop-panel" class="collapse navbar-collapse navbar-main-collapse">
+                <form action="/search/" method="get" data-ajax="false" class="search_form_mobile visible-xs-block">
+                    <input type="text" name="q" placeholder="搜索文章" autocomplete="off" class="search_input_mobile">
+                    <button type="submit" class="search_button_mobile">
+                        <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                </form>
+                <ul class="nav navbar-nav">
+                    
+                    <li>
+                        <a href="/solutions/" None>行业</a>
+                    </li>
+                    <li>
+                        <a href="/technology/" None>技术</a>
+                    </li>
+                    <li>
+                        <a href="/newpay/" None>NewPay</a>
+                    </li>
+                    <li>
+                        <a href="/community/" None>社群</a>
+                    </li>
+                    <li>
+                        <a href="/economy/" None>经济体</a>
+                    </li>
+                    <li>
+                        <a href="/newfund/" None>生态发展基金</a>
+                    </li>
+                    <li>
+                        <a href="https://developer.newtonproject.org" None>开发者</a>
+                    </li>
+                    <li>
+                        <a href="https://explorer.newtonproject.org" target="_blank" None>NewExplorer</a>
+                    </li>
+
+
+                    
+                    <li class="visible-sm-block visible-xs-block">
+                        <a href="https://home.newtonproject.org/register/">注册</a>
+                    </li>
+                    <li class="visible-sm-block visible-xs-block">
+                        <a href="https://home.newtonproject.org/login/">登录</a>
+                    </li>
+                    
+                    <li class="visible-sm-block visible-xs-block">
+                        <label for="select-input" class='select-label'>
+                            <span >语言</span>
+                            <select name="" onchange="changeLanguage()" id="id_select_language"  data-role="none">
+                                
+                                <option value="id" >
+                                    Bahasa Indonesia
+                                </option>
+                                
+                                <option value="de" >
+                                    Deutsch
+                                </option>
+                                
+                                <option value="en" >
+                                    English
+                                </option>
+                                
+                                <option value="es" >
+                                    Español
+                                </option>
+                                
+                                <option value="fr" >
+                                    Français
+                                </option>
+                                
+                                <option value="he" >
+                                    עברית
+                                </option>
+                                
+                                <option value="it" >
+                                    Italiano
+                                </option>
+                                
+                                <option value="nl" >
+                                    Nederlands
+                                </option>
+                                
+                                <option value="ro" >
+                                    Română
+                                </option>
+                                
+                                <option value="tr" >
+                                    Türkçe
+                                </option>
+                                
+                                <option value="ru" >
+                                    Pусский
+                                </option>
+                                
+                                <option value="pt" >
+                                    Português
+                                </option>
+                                
+                                <option value="vi" >
+                                    Người việt nam
+                                </option>
+                                
+                                <option value="fi" >
+                                    Suomalainen
+                                </option>
+                                
+                                <option value="ar" >
+                                    العربية
+                                </option>
+                                
+                                <option value="th" >
+                                    ไทย
+                                </option>
+                                
+                                <option value="ko" >
+                                    한국어
+                                </option>
+                                
+                                <option value="ja" >
+                                    日本語
+                                </option>
+                                
+                                <option value="zh-cn" selected="selected">
+                                    简体中文
+                                </option>
+                                
+                            </select>
+                        </label>
+                    </li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="toolbar-item hidden-xs hidden-sm" style="margin-bottom: 3px;">
+                        <a href="javascript:void(0);" id="id_search_icon_container" style="padding-top: 9px;">
+                            <span class="glyphicon glyphicon-search" aria-hidden="true" id="id_search_icon"></span>
+                        </a>
+                        <form action="/search/" method="get" data-ajax="false" id="id_search_from">
+                            <input type="text" class="search_input" id="id_search_input" name="q" placeholder="搜索文章" autocomplete="off">
+                            <button type="submit" class="search_btn" id="id_search_btn">
+                                <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                            </button>
+                        </form>
+                    </li>
+
+                    
+                        <li class="toolbar-item hidden-xs hidden-sm">
+                            <a href="https://home.newtonproject.org/register/" None>注册</a>
+                        </li>
+                        <li class="toolbar-item hidden-xs hidden-sm">
+                            <a href="https://home.newtonproject.org/login/" None>登录</a>
+                        </li>
+                    
+                    <li class="language-drop-down visible-xs-block visible-sm-block">
+                    </li>
+                    <li class="dropdown language-drop-down hidden-xs hidden-sm">
+                        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownLanguage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            <img src="https://www.newtonproject.org/static/images/languages/languages-icon/select-language.jpg?v=449"/>
+<!--                            简体中文-->
+                            <img src="https://www.newtonproject.org/static/images/languages/languages-icon/arrow-down.jpg?v=449"/>
+                            <span class="caret"></span>
+                        </button>
+
+                         <ul class="dropdown-menu" aria-labelledby="dropdownLanguage" style="right:100%;border-right:none;">
+                            
+                            <li>
+                                <a href="#" onclick="setLanguage('id');">Bahasa Indonesia
+                                    
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="#" onclick="setLanguage('de');">Deutsch
+                                    
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="#" onclick="setLanguage('en');">English
+                                    
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="#" onclick="setLanguage('es');">Español
+                                    
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="#" onclick="setLanguage('fr');">Français
+                                    
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="#" onclick="setLanguage('he');">עברית
+                                    
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="#" onclick="setLanguage('it');">Italiano
+                                    
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="#" onclick="setLanguage('nl');">Nederlands
+                                    
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="#" onclick="setLanguage('ro');">Română
+                                    
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="#" onclick="setLanguage('tr');">Türkçe
+                                    
+                                </a>
+                            </li>
+                            
+                        </ul>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownLanguage" style="border-left:none;left:0px;">
+                            
+                            <li>
+                                <a href="#" onclick="setLanguage('ru');">Pусский
+                                    
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="#" onclick="setLanguage('pt');">Português
+                                    
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="#" onclick="setLanguage('vi');">Người việt nam
+                                    
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="#" onclick="setLanguage('fi');">Suomalainen
+                                    
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="#" onclick="setLanguage('ar');">العربية
+                                    
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="#" onclick="setLanguage('th');">ไทย
+                                    
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="#" onclick="setLanguage('ko');">한국어
+                                    
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="#" onclick="setLanguage('ja');">日本語
+                                    
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="#" onclick="setLanguage('zh-cn');">简体中文
+                                    
+                                    <span style="float: left;margin-right: 4px;" id="is_choice">
+                                    <img src="https://www.newtonproject.org/static/images/languages/languages-icon/checked.jpg?v=449" alt="" class="checked_icon">
+                                    </span>
+                                    
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a>
+                                    <span style="float: left;height:36px;">
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+
+                    </li>
+
+                </ul>
+            </div><!-- /.navbar -->
+        </div>
+    </nav>
+</header>
+
+
+<style>
+@media (max-width: 768px) {
+    nav.navbar.sticky-navigation.NavBg {
+        max-height: 900px;
+        overflow-y: scroll;
+    };
+}
+</style>
+
+<link rel="stylesheet" href="https://www.newtonproject.org/static/css/search-bar.css?v=449">
+<script type="text/javascript" src="https://www.newtonproject.org/static/js/search-bar.js?v=449"></script>
+<script>
+    initSearchBar();
+</script>
+
+
+
+
+        
+
+
+         <div role="main" id="main" class="main" >
+             
+<section id="whitepaper" class="section-list section whitepaper">
+    <div class="page-title">
+        <div class="container">
+            <p>白皮书</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="download_list text-center">
+            <h2 class="whitepaper-title text-center bold">白皮书 V0.6</h2>
+            <span>最新版本：2018-11-19</span>
+            <div class="download-but">
+                <div class="raw">
+                    <div class="col-md-4 col-sm-6 p10 text-center">
+                        <a href="https://www.newtonproject.org/static/whitepaper/newton-whitepaper-0.6-release-english.pdf?v=449" download="newton-whitepaper-0.6-release-english.pdf">English White Paper</a>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p10 text-center">
+                        <a href="https://www.newtonproject.org/static/whitepaper/newton-whitepaper-0.6-release.pdf?v=449" download="newton-whitepaper-0.6-release.pdf">中文白皮书</a>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p10 text-center">
+                        <a href="https://www.newtonproject.org/static/whitepaper/newton-whitepaper-0.6-release-japanese.pdf?v=449" download="newton-whitepaper-0.6-release-japanese.pdf">日本語 ホワイトペーパー</a>
+                    </div>
+                </div>
+                <div class="raw">
+                    <div class="col-md-4 col-sm-6 p10 text-center">
+                        <a href="https://www.newtonproject.org/static/whitepaper/newton-whitepaper-0.6-release-german.pdf?v=449" download="newton-whitepaper-0.6-release-german.pdf">Deutsch White Paper</a>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p10 text-center">
+                        <a href="https://www.newtonproject.org/static/whitepaper/newton-whitepaper-0.6-release-arabic.pdf?v=449" download="newton-whitepaper-0.6-release-arabic.pdf">العربية ورق ابيض</a>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p10 text-center">
+                        <a href="https://www.newtonproject.org/static/whitepaper/newton-whitepaper-0.6-release-turkish.pdf?v=449" download="newton-whitepaper-0.6-release-turkish.pdf">Türkçe White Paper</a>
+                    </div>
+                </div>
+                <div class="raw">
+                    <div class="col-md-4 col-sm-6 p10 text-center">
+                        <a href="https://www.newtonproject.org/static/whitepaper/newton-whitepaper-0.6-release-dutch.pdf?v=449" download="newton-whitepaper-0.6-release-dutch.pdf">Nederlands Witboek</a>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p10 text-center">
+                        <a href="https://www.newtonproject.org/static/whitepaper/newton-whitepaper-0.6-release-french.pdf?v=449" download="newton-whitepaper-0.6-release-french.pdf">Français Livre Blanc</a>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p10 text-center">
+                        <a href="https://www.newtonproject.org/static/whitepaper/newton-whitepaper-0.6-release-portuguese.pdf?v=449" download="newton-whitepaper-0.6-release-portuguese.pdf">Livro Branco Português</a>
+                    </div>
+                </div>
+                <div class="raw">
+                    <div class="col-md-4 col-sm-6 p10 text-center">
+                        <a href="https://www.newtonproject.org/static/whitepaper/newton-whitepaper-0.6-release-finnish.pdf?v=449" download="newton-whitepaper-0.6-release-finnish.pdf">Suomen valkoinen kirja</a>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p10 text-center">
+                        <a href="https://www.newtonproject.org/static/whitepaper/newton-whitepaper-0.6-release-spanish.pdf?v=449" download="newton-whitepaper-0.6-release-spanish.pdf">Papel blanco español</a>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p10 text-center">
+                        <a href="https://www.newtonproject.org/static/whitepaper/newton-whitepaper-0.6-release-italian.pdf?v=449" download="newton-whitepaper-0.6-release-italian.pdf">Libro bianco italiano</a>
+                    </div>
+                </div>
+                <div class="raw">
+                    <div class="col-md-4 col-sm-6 p10 text-center">
+                        <a href="https://www.newtonproject.org/static/whitepaper/newton-whitepaper-0.6-release-hebrew.pdf?v=449" download="newton-whitepaper-0.6-release-hebrew.pdf">נייר לבן עברי</a>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p10 text-center">
+                        <a href="https://www.newtonproject.org/static/whitepaper/newton-whitepaper-0.6-release-indonesian.pdf?v=449" download="newton-whitepaper-0.6-release-indonesian.pdf">Buku putih Indonesia</a>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p10 text-center">
+                        <a href="https://www.newtonproject.org/static/whitepaper/newton-whitepaper-0.6-release-russian.pdf?v=449" download="newton-whitepaper-0.6-release-russian.pdf">Pусский Белая бумага</a>
+                    </div>
+                </div>
+                <div class="raw">
+                    <div class="col-md-4 col-sm-6 p10 text-center">
+                        <a href="https://www.newtonproject.org/static/whitepaper/newton-whitepaper-0.6-release-korean.pdf?v=449" download="newton-whitepaper-0.6-release-korean.pdf">한국어 백서</a>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p10 text-center">
+                        <a href="https://www.newtonproject.org/static/whitepaper/newton-whitepaper-0.6-release-vietnamese.pdf?v=449" download="newton-whitepaper-0.6-release-vietnamese.pdf">Giấy trắng việt nam</a>
+                    </div>
+<!--- romanian -->
+                    <div class="col-md-4 col-sm-6 p10 text-center">
+                        <a href="https://www.newtonproject.org/static/whitepaper/newton-whitepaper-0.6-release-romanian.pdf?v=449" download="newton-whitepaper-0.6-release-romanian.pdf">Cartea albă românească</a>
+                    </div>
+                </div>
+		<div class="raw">
+<!--- thai -->
+                    <div class="col-md-4 col-sm-6 p10 text-center">
+                        <a href="https://www.newtonproject.org/static/whitepaper/newton-whitepaper-0.6-release-thai.pdf?v=449" download="newton-whitepaper-0.6-release-thai.pdf">ภาษาไทยกระดาษสีขาว</a>
+                    </div>
+		</div>
+            </div>
+        </div>
+    </div>
+    <div class="line-between"></div>
+    <div class="container">
+        <div class="download_list text-center">
+            <h2 class="whitepaper-title text-center bold">白皮书 V0.5</h2>
+            <span>历史版本：2018-07-18</span>
+            <div class="download-but">
+                <div class="raw">
+                    <div class="col-md-4 col-sm-6 p10 text-center">
+                        <a href="https://www.newtonproject.org/static/whitepaper/newton-whitepaper-0.5-release-english.pdf?v=449" download="newton-whitepaper-0.5-release-english.pdf">English White Paper</a>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p10 text-center">
+                        <a href="https://www.newtonproject.org/static/whitepaper/newton-whitepaper-0.5-release.pdf?v=449" download="newton-whitepaper-0.5-release.pdf">中文白皮书</a>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p10 text-center">
+                        <a href="https://www.newtonproject.org/static/whitepaper/newton-whitepaper-0.5-release-japanese.pdf?v=449" download="newton-whitepaper-0.5-release-japanese.pdf">日本語 ホワイトペーパー</a>
+                    </div>
+                </div>
+                <div class="raw">
+                    <div class="col-md-4 col-sm-6 p10 text-center">
+                        <a href="https://www.newtonproject.org/static/whitepaper/newton-whitepaper-0.5-release-russian.pdf?v=449" download="newton-whitepaper-0.5-release-russian.pdf">Pусский Белая бумага</a>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p10 text-center">
+                        <a href="https://www.newtonproject.org/static/whitepaper/newton-whitepaper-0.5-release-german.pdf?v=449" download="newton-whitepaper-0.5-release-german.pdf">Deutsch White Paper</a>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p10 text-center">
+                        <a href="https://www.newtonproject.org/static/whitepaper/newton-whitepaper-0.5-release-arabic.pdf?v=449" download="newton-whitepaper-0.5-release-arabic.pdf">العربية ورق ابيض</a>
+                    </div>
+                </div>
+                <div class="raw">
+                    <div class="col-md-4 col-sm-6 p10 text-center">
+                        <a href="https://www.newtonproject.org/static/whitepaper/newton-whitepaper-0.5-release-turkish.pdf?v=449" download="newton-whitepaper-0.5-release-turkish.pdf">Türkçe White Paper</a>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p10 text-center">
+                        <a href="https://www.newtonproject.org/static/whitepaper/newton-whitepaper-0.5-release-dutch.pdf?v=449" download="newton-whitepaper-0.5-release-dutch.pdf">Nederlands Witboek</a>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p10 text-center">
+                        <a href="https://www.newtonproject.org/static/whitepaper/newton-whitepaper-0.5-release-french.pdf?v=449" download="newton-whitepaper-0.5-release-french.pdf">Français Livre Blanc</a>
+                    </div>
+                </div>
+                <div class="raw">
+                    <div class="col-md-4 col-sm-6 p10 text-center">
+                        <a href="https://www.newtonproject.org/static/whitepaper/newton-whitepaper-0.5-release-portuguese.pdf?v=449" download="newton-whitepaper-0.5-release-portuguese.pdf">Livro Branco Português</a>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p10 text-center">
+                        <a href="https://www.newtonproject.org/static/whitepaper/newton-whitepaper-0.5-release-romanian.pdf?v=449" download="newton-whitepaper-0.5-release-romanian.pdf">White Paper în Română</a>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p10 text-center">
+                        <a href="https://www.newtonproject.org/static/whitepaper/newton-whitepaper-0.5-release-greek.pdf?v=449" download="newton-whitepaper-0.5-release-greek.pdf">Λευκό χαρτί</a>
+                    </div>
+                </div>
+                <div class="raw">
+                    <div class="col-md-4 col-sm-6 p10 text-center">
+                        <a href="https://www.newtonproject.org/static/whitepaper/newton-whitepaper-0.5-release-bulgarian.pdf?v=449" download="newton-whitepaper-0.5-release-bulgarian.pdf">Българска бяла книга</a>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p10 text-center">
+                        <a href="https://www.newtonproject.org/static/whitepaper/newton-whitepaper-0.5-release-croatian.pdf?v=449" download="newton-whitepaper-0.5-release-croatian.pdf">Hrvatski bijeli papir</a>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p10 text-center">
+                        <a href="https://www.newtonproject.org/static/whitepaper/newton-whitepaper-0.5-release-finnish.pdf?v=449" download="newton-whitepaper-0.5-release-finnish.pdf">Suomen valkoinen kirja</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+             <img id="gotoTop" src="https://www.newtonproject.org/static/images/top.jpeg?v=449" alt="">
+         </div>
+	     
+         
+
+
+<footer class="footer">
+    <div class="container" id="nav-footer">
+		<div class="row">
+        <div class="nav-block">
+	        <h4>发展规划</h4>
+	        <ul class="list-unstyled">
+				
+				<li><a href="/partner/" target="_self">合作伙伴</a></li>
+	        </ul>
+	    </div>
+
+        <div class="nav-block">
+	        <h4>社群治理</h4>
+	        <ul class="list-unstyled">
+				<li><a href="/nep/" target="_self">牛顿改进提案</a></li>
+				<li><a href="/announcement/" target="_self">公告</a></li>
+				<li><a href="/blog/" target="_self">博客</a></li>
+				<li><a href="https://developer.newtonproject.org" target="_blank">开发者</a></li>
+				<li><a href="/newstatus/" target="_self">NewStatus</a></li>
+				<li><a href="https://wiki.newtonproject.org/wiki/Welcome_to_the_Newton_Wiki" target="_blank">Wiki</a></li>
+				<li><a href="/faq/" target="_self">FAQ</a></li>
+				
+	        </ul>
+	    </div>
+
+        <div class="nav-block">
+	        <h4>关于</h4>
+	        <ul class="list-unstyled">
+				<li><a href="/joinus/" target="_self">加入我们</a></li>
+				<li><a href="/contact/" target="_self">联系我们</a></li>
+				<li><a href="/mediakit/" target="_self">媒体资源</a></li>
+				<li><a href="/sitemap/" target="_self">网站地图</a></li>
+	        </ul>
+	    </div>
+
+        <div class="nav-block">
+	        <h4>服务条款</h4>
+	        <ul class="list-unstyled">
+				<li><a href="/copyright/" target="_self">版权声明</a></li>
+				<li><a href="/terms-of-use/" target="_self">使用条款</a></li>
+				<li><a href="/privacy/" target="_self">隐私政策</a></li>
+				
+			</ul>
+		</div>
+		
+	</div>
+	<div class="row pc-line">
+        
+		<div class="col-md-6"> 
+			<span class="pc-left">
+				
+			</span>
+		</div>
+		<div class="col-md-6 pc-align-right"> 
+			Copyright &copy; 2020 Newton Foundation. All Rights Reserved.
+		</div>
+	</div>
+
+	</div>
+</footer>
+
+    
+
+         
+
+         <div id="id_loading"></div>
+         
+         <!-- jquery lib -->
+<!--          <script src="https://www.newtonproject.org/static/js/jquery-2.1.4.min.js?v=449" type="text/javascript"></script> -->
+         <script src="https://www.newtonproject.org/static/js/jquery.lazyload.min.js?v=449"></script>
+         <script src="https://www.newtonproject.org/static/js/jquery-validate.js?v=449" type="text/javascript"></script>
+         <script src="https://www.newtonproject.org/static/js/jquery-validate-additional-methods.js?v=449" type="text/javascript"></script>
+         <script src="https://www.newtonproject.org/static/js/nsprogress.js?v=449" type="text/javascript"></script>
+         <script type="text/javascript">
+             $('img.lazy').lazyload({
+                    threshold:200
+                });
+             window.gotoTop = function(min_height){
+                $("#gotoTop").click(
+                    function(){$('html,body').animate({scrollTop:0},700);
+                }).hover(
+                    function(){$(this).addClass("hover");},
+                    function(){$(this).removeClass("hover");
+                });
+                min_height ? min_height = min_height : min_height = 800;
+                $(window).scroll(function(){
+                    var s = $(window).scrollTop();
+                    if( s > min_height){
+                        $("#gotoTop").fadeIn(100);
+                    }else{
+                        $("#gotoTop").fadeOut(200);
+                    };
+                });
+            };
+            gotoTop();
+         </script>
+         
+         <!-- <script>var zhMessages = "https://www.newtonproject.org/static/js/jquery-validate-messages.zh.js?v=449"</script> -->
+
+         <!-- bootstrap lib -->
+        <!--  <script src="https://www.newtonproject.org/static/js/bootstrap.min.js?v=449" type="text/javascript"></script>
+         <script src="https://www.newtonproject.org/static/js/jquery.i18n.properties.js?v=449" type="text/javascript"></script> -->
+
+         
+         
+         
+<script type="text/javascript">
+    showNav();
+</script>
+
+
+    </body>
+</html>
