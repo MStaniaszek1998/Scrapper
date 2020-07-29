@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" class="__meteor-css__" href="/556fc3970970fd96c92999efdf20db8ae81df12b.css?meteor_css_resource=true">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui, user-scalable=yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="shortcut icon" href="/favicon.png"/>
+  <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=Promise"></script>
+  <script src="https://cdn01.boxcdn.net/platform/preview/1.55.0/en-US/preview.js"></script>
+  <link rel="stylesheet" href="https://cdn01.boxcdn.net/platform/preview/1.55.0/en-US/preview.css" />
+
+</head>
+<body><div id="app">
+  </div>
+  <script type="text/javascript" src="/meteor_runtime_config.js?hash=9efb01eb73ec0de7812d3cd0dabedc0f9eb17ce2"></script>
+
+  <script type="text/javascript" src="/1fa07c5d4ffe6847a7382c602dd6a716da224e6b.js?meteor_js_resource=true"></script>
+
+
+</body>
+</html>
