@@ -2,53 +2,47 @@
 Ensures the connection between data_collector and selenium one docker image using ip address.
 It includes helper methods for each scraper i.e. maintains the session between scraper and
 selenium, and gives access to generic functions for each scrapper"""
-# import standard
-import os
-# import third-party
-import random
-import sys
-import time
-from datetime import datetime
-from typing import Union, AnyStr
 
+import random
+import time
+from typing import Union, AnyStr
+from abc import ABC, abstractmethod
+import requests
 import pandas as pd
 from selenium import webdriver
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from selenium.webdriver.common.keys import Keys
 
+from utils import Helper
 
 
-class BaseScraper:
+class BaseCrawler(ABC):
     """BaseScraper
     All scrapers derived from this class.
     It gives the scrappers the acces to the: selenium's webdriver and maintins its session;
     tokenization system responsible for fault-tolerant scrapping; common JavaScript actions for
     each scrapper."""
 
-    def __init__(self, use_selenium: bool = True,
-                 source_name: str = __name__, threshold_value: int = None):
+    def __init__(self, use_selenium: bool = True):
         print("Starting Scrapping")
-        self.source_name: str = source_name
         self._use_selenium = use_selenium
-        self.threshold_value: int = threshold_value
-        if use_selenium:
+        if self._use_selenium:
             self.driver = webdriver.Remote('http://172.17.0.1:4444/wd/hub',
                                            DesiredCapabilities.CHROME)
+        else:
+            self.session = requests.Session()
+            self.session.headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) '
+                                                  'AppleWebKit/537.36 (KHTML, like Gecko) '
+                                                  'Chrome/39.0.2171.95 Safari/537.36'}
 
-
-
-
-    def save_file(self, save_path: str, content: AnyStr, do_threshold: bool = False,
-                  row: pd.Series = None) -> None:
-        """Special function with threshold value to save the content if the size is above the
-        threshold. Otherwise do not save the content and mark scrapped file as failed status at
-        tokenization system"""
-
-        DataSource.save_file(save_path=save_path, content=content)
-
-
-
-
+    def get(self, url, stream=True):
+        """Encapsulation of get request for selenium"""
+        self.sleep(1, 0.5)
+        if self._use_selenium:
+            self.driver.get(url)
+        else:
+            response = self.session.get(url, stream=stream)
+            return response
 
     def scroll_to_the_end_html(self) -> None:
         """Webdriver is scrolling to the end of the webpage and renders the content for the
@@ -87,3 +81,6 @@ class BaseScraper:
         else:
             cls._sleep_randomize_duration(duration, variance)
 
+    @abstractmethod
+    def crawl_pages(self):
+        pass

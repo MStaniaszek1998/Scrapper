@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Just a moment...</title>
+  <style type="text/css">
+    html, body {width: 100%; height: 100%; margin: 0; padding: 0;}
+    body {background-color: #ffffff; color: #000000; font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, "Helvetica Neue",Arial, sans-serif; font-size: 16px; line-height: 1.7em;-webkit-font-smoothing: antialiased;}
+    h1 { text-align: center; font-weight:700; margin: 16px 0; font-size: 32px; color:#000000; line-height: 1.25;}
+    p {font-size: 20px; font-weight: 400; margin: 8px 0;}
+    p, .attribution, {text-align: center;}
+    #spinner {margin: 0 auto 30px auto; display: block;}
+    .attribution {margin-top: 32px;}
+    @keyframes fader     { 0% {opacity: 0.2;} 50% {opacity: 1.0;} 100% {opacity: 0.2;} }
+    @-webkit-keyframes fader { 0% {opacity: 0.2;} 50% {opacity: 1.0;} 100% {opacity: 0.2;} }
+    #cf-bubbles > .bubbles { animation: fader 1.6s infinite;}
+    #cf-bubbles > .bubbles:nth-child(2) { animation-delay: .2s;}
+    #cf-bubbles > .bubbles:nth-child(3) { animation-delay: .4s;}
+    .bubbles { background-color: #f58220; width:20px; height: 20px; margin:2px; border-radius:100%; display:inline-block; }
+    a { color: #2c7cb0; text-decoration: none; -moz-transition: color 0.15s ease; -o-transition: color 0.15s ease; -webkit-transition: color 0.15s ease; transition: color 0.15s ease; }
+    a:hover{color: #f4a15d}
+    .attribution{font-size: 16px; line-height: 1.5;}
+    .ray_id{display: block; margin-top: 8px;}
+    #cf-wrapper #challenge-form { padding-top:25px; padding-bottom:25px; }
+    #cf-hcaptcha-container { text-align:center;}
+    #cf-hcaptcha-container iframe { display: inline-block;}
+  </style>
+
+    <meta http-equiv="refresh" content="12">
+<script type="text/javascript">
+  //<![CDATA[
+  (function(){
+    
+    window._cf_chl_opt={
+      cvId: "1",
+      cType: "non-interactive",
+      cNounce: "29834",
+      cRay: "5ba7d197c95acc8f",
+      cHash: "7fafb32cbb1a232",
+      cRq: {
+        d: "icRbEWHrFXagpV0UYj1gjZZRlbhFykMKZ8X8lUUerhzs6XWdIN3aLKsnSKD5/cO2rlPabNuI+EE6A6xm3u3jS7l4JDur/oUFI9mxUQaz981oKilknp86TwPWxfTaxz7DHmxrm0dk5lKAZxNxDchicRzeabLiPpgZkw9jJ7+STFUS1WqYZaPxR0vzkfCyxVvAmQKBoiVjLtIWKCmB4ussupYlLhMUmeGlS0MOcQI2Klze1QgtGqLt466M0JlImXuGX5/2QZRGW63AmzMOn9kzrcZ6nbX6jp0NH7OEy1S0zHNm6nRSFu48ogcNXYJLD/xdi8bBJt1sk5vmrvSHBbWVsAaXObMKoykkt/3355uGbq0y3erGHODikaiBs8Sc9MH+WXgnE1vH9mWqo5mEFqb4Yw==",
+        t: "MTU5NjAzNTk3MS44MTAwMDA=",
+        m: "XobMunWLY18Z/mJAtYNJv2+LCH3ybCU+1kUF/0qTbD8=",
+        i1: "4mVS8pgVj96KYhER5v5UHg==",
+        i2: "DPYg6v5+M8BaFq4rvkFNaA==",
+      }
+    }
+    window._cf_chl_enter = function(){window._cf_chl_opt.p=1};
+    
+    var a = function() {try{return !!window.addEventListener} catch(e) {return !1} },
+    b = function(b, c) {a() ? document.addEventListener("DOMContentLoaded", b, c) : document.attachEvent("onreadystatechange", b)};
+    b(function(){
+      var cookiesEnabled=(navigator.cookieEnabled)? true : false;
+      var cookieSupportInfix=cookiesEnabled?'/nocookie':'/cookie';
+      var a = document.getElementById('cf-content');a.style.display = 'block';
+      var isIE = /(MSIE|Trident\/|Edge\/)/i.test(window.navigator.userAgent);
+      var trkjs = isIE ? new Image() : document.createElement('img');
+      trkjs.setAttribute("src", "/cdn-cgi/images/trace/jschal/js"+cookieSupportInfix+"/transparent.gif?ray=5ba7d197c95acc8f");
+      trkjs.id = "trk_jschal_js";
+      trkjs.setAttribute("alt", "");
+      document.body.appendChild(trkjs);
+      
+      document.body.appendChild(trkjs);
+      var cpo = document.createElement('script');
+      cpo.type = 'text/javascript';
+      cpo.src = "/cdn-cgi/challenge-platform/orchestrate/jsch/v1";
+      var done = false;
+      cpo.onload = cpo.onreadystatechange = function() {
+        if (!done && (!this.readyState || this.readyState === "loaded" || this.readyState === "complete")) {
+          done = true;
+          cpo.onload = cpo.onreadystatechange = null;
+          window._cf_chl_enter()
+        }
+      };
+      document.getElementsByTagName('head')[0].appendChild(cpo);
+    
+    }, false);
+  })();
+  //]]>
+</script>
+
+
+</head>
+<body>
+  <table width="100%" height="100%" cellpadding="20">
+    <tr>
+      <td align="center" valign="middle">
+          <div class="cf-browser-verification cf-im-under-attack">
+  <noscript>
+    <h1 data-translate="turn_on_js" style="color:#bd2426;">Please turn JavaScript on and reload the page.</h1>
+  </noscript>
+  <div id="cf-content" style="display:none">
+    
+    <div id="cf-bubbles">
+      <div class="bubbles"></div>
+      <div class="bubbles"></div>
+      <div class="bubbles"></div>
+    </div>
+    <h1><span data-translate="checking_browser">Checking your browser before accessing</span> btccredit.io.</h1>
+    
+    <div id="no-cookie-warning" data-translate="turn_on_cookies" style="display:none">
+      <p data-translate="turn_on_cookies" style="color:#bd2426;">Please enable Cookies and reload the page.</p>
+    </div>
+    <p data-translate="process_is_automatic">This process is automatic. Your browser will redirect to your requested content shortly.</p>
+    <p data-translate="allow_5_secs">Please allow up to 5 seconds&hellip;</p>
+  </div>
+   
+  <form class="challenge-form" id="challenge-form" action="/pdf/btccredit_whitepaper.pdf?__cf_chl_jschl_tk__=f0447da9df8ebea576338e93db1db22b01c6ef0a-1596035971-0-AfN3Tx7giBl5ziCrDj-ghKTiJSAPjHd3S6hDzaBv-8MrAXQ3U52Jzk5zzsSsFHxTOlhm6zvLHQQxfDQIFn3zB6MEw69i5RQN1fm2eIYUYhEIlTv15stWQMxE-b5zyt0mv_CHI8kXRJhgzwn4fpjHLEQCkqgrpzHhEDI3YNxB7f3tO3kiKN8wMrSNwd6sBzy62yEiWo0OPEAZ0pxX10Z2N_njrW_pYSE_msn1nWoRfI4PoVa_RpeAOFQbUreq3wLg8msI42vBJ7eQ4QObxWAAxtdqS6bHu76fa-NCTjHkQxq_nLixsdl6XNjCs77WGKPkgg" method="POST" enctype="application/x-www-form-urlencoded">
+    <input type="hidden" name="r" value="ea8470ba8aa88b999f94739440b0fc2e613650a7-1596035971-0-AUZKvt8i2KdfeE+IdEYCnYeS8YtkIR484Q6h+e1/L02xMcYO5YC57B48nSDG3Ai/IQrLqFpyhi8Th25UX6dPfP/MFoTIgxRP82XLfJn27x9RXbH94U9ude+oWviSnt2HvTpI171bmkIg3gEpJNd6tGQwR9tv/yGUPlH1SfK0Xnfbkdd3oy19Y9TYYGGJwC8N2akeZ551Qu4l7KBdq61usB4zD30JknvTiE5KkY47uq/AG+0MVvnZ0dFMUX4SEmbWD18OAGJzFCm61JGct37anKEgbR/WjfpZukZdSFY5WZHb2dk6sPc6O9VZ3UtT5mZ8CGSiRscO/luv6etilso7Hz1+KH60fLU1NcLG43PB1U/ML2wqv96PtcHIKObDdSdiZZ5n/NPApBamD3Owv0tkK3+DDGLprbu/gLrK+LSY5qIjFpFLgHgS8Mda/UR0kY5g4esxBLrNx8FA16d3NSDJkkLwh0UMP9NEClqZe5c0VN2ucX2mD78CMHzyoT4Hfm59IWzmJEjy3M+dV9fqW8duXgzVbmHUfp0ACAWNoparnfmpAr9S5TZ1Ifw13Kw6GLfU4YOAJJgmFcF8NLKpr71H8rQ3MOaC9gVAVa9HSVObEb9tqWDt5Gd1DK3MePR/WBifJi2EaL71wTz9zyXrwe3A/rCzJHRDkphNf0pElNcoiE3E6RpUFK60r0pal1SSeL7k/kHkyaTPub15GVxMtGmndTcpEaGFYrSyXUkDTNVPYp2xH8NfiReSkcB8qk+sWxXe+0bIXInG4Rafq3Yh/9WJ3zN560rX4xhsgjRZSipJ61l6+r4nt6OyJPAogDybHlVcBYvxot2ArURNkpyinCZ/P2zm38Qiw3Gqs2PtHmqdmfkUPDzJ3xlRU4wfcXWS0SceJL+wMl9fJrEyICmgZhd1wdFXZe/dLgUsyt8261Te+6COIvIUyonFve+EhZOzC6wYYRWbIJHZKQocB2+IbM/Dh95fKyycj8svON1hy0oX+Y90B8XAP4aQau6W784KtD8iS5TtVCg3MkwR0qqV2J6YFtrZfJb/DCsm22stQ2Cx0r3URIS/9ztaNRreZug3m5Xrg1gxQMIrqlm3W0ZL9hgcciWaLGEy/tdJ1A9kKBTFof1JwZ5f8lW4VTrOSWWLHkZjYhdhmWfOVrq3A76eIe+JtJJcD3AeUCzWh5rdYEPe4jQCyIzvZd/qZMNXgiVU1BDd9If0Sz6jg0H/QyDdvZNGqAfBqunINZx7WSoKA3erDkVU0C7YJW3AIxKxA1ffeXFAZjziNrVHwIqkltk93zjP3rV/nKFV+M/xC6HzgbBNkIFc6OMzBMgDTK1fBOaLRW0p/DpY8yWPFBT0K5vts3bKiRKtDXhaZZQlmW9ejhhrcsG7ZV0gHeFOKe0JCHFJr5Jv3nk+lncZbqJf5Y4peNmIv9HTvsYqs23xFmV5RCFjDVsNjblQP0Qf7Clq8UUB89JiEzANCMpspFC4/0RpclIbhuI="/>
+    <input type="hidden" value="cb7d3f5f8cd2ba56926b1ff77880c1cd" id="jschl-vc" name="jschl_vc"/>
+    <!-- <input type="hidden" value="" id="jschl-vc" name="jschl_vc"/> -->
+    <input type="hidden" name="pass" value="1596035975.81-arD5a9DiGg"/>
+    <input type="hidden" id="jschl-answer" name="jschl_answer"/>
+  </form>
+  
+  <div id="trk_jschal_nojs" style="background-image:url('/cdn-cgi/images/trace/jschal/nojs/transparent.gif?ray=5ba7d197c95acc8f')"> </div>
+</div>
+
+          <div style="display: none;"><a href="https://rkrmpg.com/americanactinoid.php?faqid=252">table</a></div>
+          <div class="attribution">
+            DDoS protection by <a href="https://www.cloudflare.com/5xx-error-landing/" target="_blank">Cloudflare</a>
+            <br />
+            <span class="ray_id">Ray ID: <code>5ba7d197c95acc8f</code></span>
+          </div>
+      </td>
+     
+    </tr>
+  </table>
+</body>
+</html>

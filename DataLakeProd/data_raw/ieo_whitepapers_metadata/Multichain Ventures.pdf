@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required Meta Tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <title>Multichain Ventures</title>
+        <link rel="icon" type="image/png" href="assets/images/favicon.png" />
+		<!-- Core Meta Data -->
+	<meta name="author" content="Multichain Ventures">
+	<meta name="description" content="Universal Crypto Merchant Solutions & Accessible Blockchain Deployment. Straightforward tools for payments, development, and supply chains.">
+	<meta name="keywords" content="crypto pos, cryptocurrency point of sale, crypto ecommerce, cryptocurrency ecommerce, supply chain visibility, blockchain supply chain, blockchain gs1, blockchain epcis, crypto merchant processing, white-label crypto">
+
+	<!-- Open Graph Meta Data -->
+	<meta property="og:description" content="Universal Crypto Merchant Solutions & Accessible Blockchain Deployment. Straightforward tools for payments, development, and supply chains.">
+	<meta property="og:image" content="https://multichain.ventures/preview_image.png">
+	<meta property="og:site_name" content="Multichain Ventures">
+	<meta property="og:title" content="Multichain Ventures">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://multichain.ventures">
+
+	<!-- Twitter Card Meta Data -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@Multichain_Vent">
+	<meta name="twitter:creator" content="@Multichain_Vent">
+	<meta name="twitter:title" content="Multichain Ventures">
+	<meta name="twitter:description" content="Universal Crypto Merchant Solutions & Accessible Blockchain Deployment. Straightforward tools for payments, development, and supply chains.">
+	<meta name="twitter:image" content="https://multichain.ventures/preview_image.png">
+
+	<!-- Apple Touch Icons -->
+    <link rel="apple-touch-icon" href="https://multichain.ventures/apple-touch-icon.png">
+        <!--Core CSS -->
+        <link rel="stylesheet" href="assets/css/bulma.css">
+        <link rel="stylesheet" href="assets/css/app.css">
+        <link rel="stylesheet" href="assets/css/icons.min.css">
+        <link rel="stylesheet" href="assets/css/core_blue.css">
+        <link rel="stylesheet" href="assets/css/subscribe.css">
+
+
+        <script>
+            !function(f,b,e,v,n,t,s)
+            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '560034901471687');
+            fbq('track', 'PageView');
+        </script>
+    </head>
+    <body>
+
+        <!-- Hero and Navbar -->
+        <div class="hero is-default is-bold is-fullheight blue-bg" style="background-color:#1D2339">
+        
+            <!-- Navbar partial -->
+            <nav class="navbar navbar-wrapper is-cloned">
+                <div class="container">
+                    <!-- Brand -->
+                    <div class="navbar-brand">
+                        <a class="navbar-item" href="index.html">
+
+
+
+                            <img src="assets/images/logos/mv-logo-white.svg" alt="">
+                        </a>
+            
+                        <!-- Sidebar Trigger
+                        <a class="navbar-item hamburger-btn navigation-trigger" href="javascript:void(0);">
+                            <span class="menu-toggle">	
+                                <span class="icon-box-toggle"> 	
+                                    <span class="rotate">
+                                        <i class="icon-line-top"></i>
+                                        <i class="icon-line-center"></i>
+                                        <i class="icon-line-bottom"></i> 
+                                    </span>
+                                </span>
+                            </span>
+                        </a>
+            
+                        <!-- Responsive toggle -->
+                        <div class="custom-burger" data-target="is-cloned">
+                            <a class="responsive-btn" href="javascript:void(0);">
+                                <span class="menu-toggle">	
+                                    <span class="icon-box-toggle"> 	
+                                        <span class="rotate">
+                                            <i class="icon-line-top"></i>
+                                            <i class="icon-line-center"></i>
+                                            <i class="icon-line-bottom"></i> 
+                                        </span>
+                                    </span>
+                                </span>
+                            </a>
+                        </div>
+                        <!-- /Responsive toggle -->
+                    </div>
+            
+                    <!-- Navbar menu -->
+                    <div id="is-cloned" class="navbar-menu">
+                        <!-- Navbar Start -->
+                        <div class="navbar-start">
+                            <!-- Dropdown -->
+                            <div class="navbar-item has-dropdown is-hoverable is-mega is-hidden-mobile">
+                                <div class="navbar-link">
+                                    Products
+                                </div>
+                                <div class="navbar-dropdown is-megamenu animated prefadeInUp fadeInUp" data-style="width: 18rem;">
+                                    <div class="mega-inner">
+                                        <div class="container">
+                                            <div class="columns">
+                                                <div class="column">
+                                                   <h2 class="title is-6 is-mega-menu-title dark-font">Cubed</h2>
+                                                    <a class="navbar-item is-flex" href="#portfolio">
+                                                        <i class="im im-icon-Information"></i>
+                                                        <div class="navbar-content">
+                                                            <p>
+                                                                <small class="color-secondary">Cubed</small>
+                                                            </p>
+                                                            <p>Learn More</p>
+                                                        </div>
+                                                    </a>
+                                                    <a class="navbar-item is-flex" href="cubed.html">
+                                                        <i class="im im-icon-Info-Window"></i>
+                                                        <div class="navbar-content">
+                                                            <p>
+                                                                <small class="color-secondary">Full Site</small>
+                                                            </p>
+                                                            <p>View Cubed Full Site</p>
+                                                        </div>
+                                                    </a>
+
+                                                </div>
+                                                <div class="column">
+                                                    <h2 class="title is-6 is-mega-menu-title dark-font">Tokes Platform</h2>
+                                                                                                        <a class="navbar-item is-flex" href="#portfolio">
+                                                        <i class="im im-icon-Information"></i>
+                                                        <div class="navbar-content">
+                                                            <p>
+                                                                <small class="color-secondary">Tokes Platform</small>
+                                                            </p>
+                                                            <p>Learn More</p>
+                                                        </div>
+                                                    </a>
+                                                    <a class="navbar-item is-flex" href="tokes.html">
+                                                        <i class="im im-icon-Info-Window"></i>
+                                                        <div class="navbar-content">
+                                                            <p>
+                                                                <small class="color-secondary">Full Site</small>
+                                                            </p>
+                                                            <p>View Tokes Platform Full Site</p>
+                                                        </div>
+                                                    </a>
+
+                                                </div>
+                                                <div class="column">
+                                                    <h2 class="title is-6 is-mega-menu-title dark-font">EDEN</h2>
+                                                       <a class="navbar-item is-flex" href="#portfolio">
+                                                        <i class="im im-icon-Information"></i>
+                                                        <div class="navbar-content">
+                                                            <p>
+                                                                <small class="color-secondary">EDEN</small>
+                                                            </p>
+                                                            <p>Learn More</p>
+                                                        </div>
+                                                    </a>
+                                                    <a class="navbar-item is-flex" href="eden.html">
+                                                        <i class="im im-icon-Info-Window"></i>
+                                                        <div class="navbar-content">
+                                                            <p>
+                                                                <small class="color-secondary">Full Site</small>
+                                                            </p>
+                                                            <p>View EDEN Full Site</p>
+                                                        </div>
+                                                    </a>
+
+                                                </div>
+                                                <div class="column">
+                                                    <h2 class="title is-6 is-mega-menu-title dark-font">Reli.cloud</h2>
+                                                                                                       <a class="navbar-item is-flex" href="#portfolio">
+                                                        <i class="im im-icon-Information"></i>
+                                                        <div class="navbar-content">
+                                                            <p>
+                                                                <small class="color-secondary">Reli.cloud</small>
+                                                            </p>
+                                                            <p>Learn More</p>
+                                                        </div>
+                                                    </a>
+                                                    <a class="navbar-item is-flex" href="reli.html">
+                                                        <i class="im im-icon-Info-Window"></i>
+                                                        <div class="navbar-content">
+                                                            <p>
+                                                                <small class="color-secondary">Full Site</small>
+                                                            </p>
+                                                            <p>View Reli Full Site</p>
+                                                        </div>
+                                                    </a>
+
+                                                </div>
+                                            </div>
+									<div class="columns">		
+										<div class="column">
+								<!-- CTA -->
+                				<h2 class="has-text-centered">
+                                <a href="#contact" style="background-color:#1D2339"  class="button button-cta is-bold btn-align secondary-btn raised" >
+                                    Contact Us Now
+                                </a>
+               					</h2>
+                				<!-- /CTA -->
+										</div>
+										</div>
+                                        </div>
+                            
+                                        <hr class="navbar-divider">
+                                        <div class="navbar-item is-footer is-hidden-mobile">
+                                            <div class="navbar-content">
+                                                <div class="level is-mobile">
+                                                    <div class="level-left">
+                                                        <div class="level-item">
+                                                            <strong>Follow us</strong>
+                                                        </div>
+                                                    </div>
+                                                    <div class="level-right">
+                                                        <div class="level-item">
+                                                            <a class="social-link" href="https://twitter.com/Multichain_Vent" target="_blank"><i class="fa fa-twitter"></i></a>
+                                                            <a class="social-link" href="https://facebook.com/multichainventures" target="_blank"><i class="fa fa-facebook"></i></a>
+                                                            <a class="social-link" href="https://instagram.com/multichainventures" target="_blank"><i class="fa fa-instagram"></i></a>
+                                                            <a class="social-link" href="https://github.com/tksventures" target="_blank"><i class="fa fa-github"></i></a>
+                                                            <a class="social-link" href="https://youtube.com/multichainventures" target="_blank"><i class="fa fa-youtube-play"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                            
+                                        <div class="menu-image is-hidden-mobile">
+                                            <img src="assets/images/bg/shapes/megamenu-blue.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                <!-- Navbar item -->
+                            <a class="navbar-item is-slide is-centered-tablet is-hidden-desktop is-hidden-tablet is-hidden-mobile" href="#">
+                                Products
+                            </a>
+                            
+                        </div>
+            
+                        <!-- Navbar end -->
+                        <div class="navbar-end">
+                                                    <!-- Navbar item -->
+                            <a class="navbar-item is-slide is-centered-tablet" href="index.html#token-sale">
+                                Token Sale
+                            </a>
+
+                            <!-- Navbar item -->
+                            <a class="navbar-item is-slide is-centered-tablet" href="index.html#portfolio">
+                                Our Companies
+                            </a>
+                            <!-- Navbar item -->
+                            <a class="navbar-item is-slide is-centered-tablet" href="index.html#tokenomics">
+                                Tokenomics
+                            </a>
+                            <a class="navbar-item is-slide is-centered-tablet" href="tokensale.html#team">
+                                Team
+                            </a>
+
+                                                                                                                                                            <!-- Navbar item -->
+                            <a class="navbar-item is-slide is-centered-tablet" href="https://medium.com/multichainventures" target="_blank">
+                                Blog
+                            </a>
+                            							                            <!-- Navbar item -->
+                            <a class="navbar-item is-slide is-centered-tablet" href="documents.html">
+                                Whitepaper
+                            </a>
+                            <a class="navbar-item is-centered-tablet is-slide" href="index.html#wallet">
+                                Wallet
+                            </a>   
+							<!-- Navbar item -->
+                            <a class="navbar-item is-slide is-centered-tablet" href="#contact">
+                                Contact
+                            </a>
+                      							                            <!-- Navbar item -->
+                            <a class="navbar-item is-centered-tablet button-nav" href="https://gateway.tokesplatform.org/login">
+Gateway Login                            </a>
+                            <!-- Signup button -->
+ 
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            
+            <nav class="navbar navbar-wrapper is-transparent is-static">
+                <div class="container">
+                    <!-- Brand -->
+                    <div class="navbar-brand">
+                        <a class="navbar-item" href="index.html">
+                            <img src="assets/images/logos/mv-logo-white.svg" alt="">
+                        </a>
+            
+                        <!-- Sidebar Trigger
+                        <a id="navigation-trigger" class="navbar-item hamburger-btn" href="javascript:void(0);">
+                            <span class="menu-toggle">	
+                                <span class="icon-box-toggle"> 	
+                                    <span class="rotate">
+                                        <i class="icon-line-top"></i>
+                                        <i class="icon-line-center"></i>
+                                        <i class="icon-line-bottom"></i> 
+                                    </span>
+                                </span>
+                            </span>
+                        </a>
+            
+                        <!-- Responsive toggle -->
+                        <div class="custom-burger" data-target="is-static">
+                            <a class="responsive-btn" href="javascript:void(0);">
+                                <span class="menu-toggle">	
+                                    <span class="icon-box-toggle"> 	
+                                        <span class="rotate">
+                                            <i class="icon-line-top"></i>
+                                            <i class="icon-line-center"></i>
+                                            <i class="icon-line-bottom"></i> 
+                                        </span>
+                                    </span>
+                                </span>
+                            </a>
+                        </div>
+                        <!-- /Responsive toggle -->
+                    </div>
+            
+                    <!-- Navbar menu -->
+                    <div id="is-static" class="navbar-menu">
+                        <!-- Navbar Start -->
+                        <div class="navbar-start">
+                            <!-- Dropdown -->
+                            <div class="navbar-item has-dropdown is-hoverable is-mega is-hidden-mobile">
+                                <div class="navbar-link">
+                                    Products
+                                </div>
+                                <div class="navbar-dropdown is-megamenu animated prefadeInUp fadeInUp" data-style="width: 18rem;">
+                                    <div class="mega-inner">
+                                        <div class="container">
+                                            <div class="columns">
+                                                <div class="column">
+                                                    <h2 class="title is-6 is-mega-menu-title dark-font">Cubed</h2>
+                                                    <a class="navbar-item is-flex" href="index.html#portfolio">
+                                                        <i class="im im-icon-Information"></i>
+                                                        <div class="navbar-content">
+                                                            <p>
+                                                                <small class="color-secondary">Cubed</small>
+                                                            </p>
+                                                            <p>Learn More</p>
+                                                        </div>
+                                                    </a>
+                                                    <a class="navbar-item is-flex" href="cubed.html">
+                                                        <i class="im im-icon-Info-Window"></i>
+                                                        <div class="navbar-content">
+                                                            <p>
+                                                                <small class="color-secondary">Full Site</small>
+                                                            </p>
+                                                            <p>View Cubed Full Site</p>
+                                                        </div>
+                                                    </a>
+
+                                                </div>
+                                                <div class="column">
+                                                    <h2 class="title is-6 is-mega-menu-title dark-font">Tokes Platform</h2>
+                                                                                                        <a class="navbar-item is-flex" href="index.html#portfolio">
+                                                        <i class="im im-icon-Information"></i>
+                                                        <div class="navbar-content">
+                                                            <p>
+                                                                <small class="color-secondary">Tokes Platform</small>
+                                                            </p>
+                                                            <p>Learn More</p>
+                                                        </div>
+                                                    </a>
+                                                    <a class="navbar-item is-flex" href="tokes.html">
+                                                        <i class="im im-icon-Info-Window"></i>
+                                                        <div class="navbar-content">
+                                                            <p>
+                                                                <small class="color-secondary">Full Site</small>
+                                                            </p>
+                                                            <p>View Tokes Platform Full Site</p>
+                                                        </div>
+                                                    </a>
+
+                                                </div>
+                                                <div class="column">
+                                                    <h2 class="title is-6 is-mega-menu-title dark-font">EDEN</h2>
+                                                       <a class="navbar-item is-flex" href="index.html#portfolio">
+                                                        <i class="im im-icon-Information"></i>
+                                                        <div class="navbar-content">
+                                                            <p>
+                                                                <small class="color-secondary">EDEN</small>
+                                                            </p>
+                                                            <p>Learn More</p>
+                                                        </div>
+                                                    </a>
+                                                    <a class="navbar-item is-flex" href="eden.html">
+                                                        <i class="im im-icon-Info-Window"></i>
+                                                        <div class="navbar-content">
+                                                            <p>
+                                                                <small class="color-secondary">Full Site</small>
+                                                            </p>
+                                                            <p>View EDEN Full Site</p>
+                                                        </div>
+                                                    </a>
+
+                                                </div>
+                                                <div class="column">
+                                                    <h2 class="title is-6 is-mega-menu-title dark-font">Reli.cloud</h2>
+                                                                                                       <a class="navbar-item is-flex" href="index.html#portfolio">
+                                                        <i class="im im-icon-Information"></i>
+                                                        <div class="navbar-content">
+                                                            <p>
+                                                                <small class="color-secondary">Reli.cloud</small>
+                                                            </p>
+                                                            <p>Learn More</p>
+                                                        </div>
+                                                    </a>
+                                                    <a class="navbar-item is-flex" href="reli.html">
+                                                        <i class="im im-icon-Info-Window"></i>
+                                                        <div class="navbar-content">
+                                                            <p>
+                                                                <small class="color-secondary">Full Site</small>
+                                                            </p>
+                                                            <p>View Reli Full Site</p>
+                                                        </div>
+                                                    </a>
+
+                                                </div>
+                                            </div>
+									<div class="columns">		
+										<div class="column">
+								<!-- CTA -->
+                				<h2 class="has-text-centered">
+                                <a href="#contact" style="background-color:#1D2339"  class="button button-cta is-bold btn-align secondary-btn raised" >
+                                    Contact Us Now
+                                </a>
+               					</h2>
+                				<!-- /CTA -->
+										</div>
+										</div>
+                                        </div>
+                            
+                                        <hr class="navbar-divider">
+                                        <div class="navbar-item is-footer is-hidden-mobile">
+                                            <div class="navbar-content">
+                                                <div class="level is-mobile">
+                                                    <div class="level-left">
+                                                        <div class="level-item">
+                                                            <strong>Follow us</strong>
+                                                        </div>
+                                                    </div>
+                                                    <div class="level-right">
+                                                        <div class="level-item">
+                                                            <a class="social-link" href="https://twitter.com/Multichain_Vent"><i class="fa fa-twitter" target="_blank"></i></a>
+                                                            <a class="social-link" href="https://facebook.com/multichainventures"><i class="fa fa-facebook" target="_blank"></i></a>
+                                                            <a class="social-link" href="https://instagram.com/multichainventures"><i class="fa fa-instagram" target="_blank"></i></a>
+                                                            <a class="social-link" href="https://github.com/tksventures" target="_blank"><i class="fa fa-github"></i></a>
+                                                            <a class="social-link" href="https://youtube.com/multichainventures"><i class="fa fa-youtube-play" target="_blank"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                            
+                                        <div class="menu-image is-hidden-mobile">
+                                            <img src="assets/images/bg/shapes/megamenu-blue.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                <!-- Navbar item -->
+                            <a class="navbar-item is-slide is-centered-tablet is-hidden-desktop is-hidden-tablet is-hidden-mobile" href="index.html#portfolio">
+                                Products
+                            </a>
+                            
+                        </div>
+            
+                        <!-- Navbar end -->
+                        <div class="navbar-end">
+                                                                          <!-- Navbar item -->
+                            <a class="navbar-item is-slide is-centered-tablet" href="index.html#token-sale">
+                                Token Sale
+                            </a>
+
+                            <!-- Navbar item --><a class="navbar-item is-slide is-centered-tablet" href="index.html#portfolio"> Our Companies</a>
+							                            <!-- Navbar item -->
+                            <a class="navbar-item is-slide is-centered-tablet" href="index.html#tokenomics">
+                                Tokenomics
+                            </a>
+                            <a class="navbar-item is-slide is-centered-tablet" href="tokensale.html#team">
+                                Team
+                            </a>
+
+                                                                                                                                                            <!-- Navbar item -->
+                            <a class="navbar-item is-slide is-centered-tablet" href="https://medium.com/multichainventures" target="_blank">
+                                Blog
+                            </a>
+
+                            							<!-- Navbar item -->
+                            <a class="navbar-item is-slide is-centered-tablet" href="documents.html">
+                                Whitepaper
+                            </a>
+                            <a class="navbar-item is-centered-tablet is-slide" href="index.html#wallet">
+                                Wallet
+                            </a>   
+							<!-- Navbar item -->
+                            <a class="navbar-item is-slide is-centered-tablet" href="#contact">
+                                Contact
+                            </a>
+                      							                            <!-- Navbar item -->
+                            <a class="navbar-item is-centered-tablet button-nav" href="https://gateway.tokesplatform.org/login">
+Gateway Login                            </a>
+                            <!-- Signup button -->
+
+                        </div>
+                    </div>
+                </div>
+            </nav>
+           
+
+
+                                 
+        
+  
+
+
+
+      
+        
+
+<!-- Subscribe Section -->
+<section  id="token-sale" class="section section-primary no-padding-bottom subscribe-section">
+                        
+                         <!-- Title -->
+                <div class="section-title-wrapper has-text-centered">
+
+                    <h2 class="title is-2">Multichain Ventures Documentation</h2>
+                    <h4 class="subtitle is-4">Read our in-depth Whitepaper and Tokenomics docs below.</h4>
+                </div>
+                
+            <div class="container">
+
+
+
+              <!-- Start Your Article Section -->
+            <div class="container">
+                
+                <!-- Content -->
+              <div class="content-wrapper">
+                    <div class="columns">
+                        <!-- Journey Item -->
+                        <div class="column is-1 is-hidden-mobile"></div>
+                        <div class="column is-5">
+                        <a href="assets/docs/multichain-ventures-whitepaper.pdf">
+                            <div class="journey-box shadow-hover">
+                            <img class="image-box" src="assets/docs/docs-whitepaper.jpg" alt="">
+                            </div>
+                        <div class="journey-name light-text ">Multichain Ventures Whitepaper</div>
+                        </a>
+                        </div>
+                        <!-- /Journey Item -->
+ <!-- Journey Item -->
+                        <div class="column is-5">
+                        <a href="assets/docs/multichain-ventures-tokenomics.pdf">
+                            <div class="journey-box shadow-hover">
+                            <img class="image-box" src="assets/docs/docs-tokenomics.jpg" alt="">
+                            </div>
+                        <div class="journey-name light-text ">Multichain Ventures Tokenomics </div>
+                        </a>
+                        </div>
+                        <!-- /Journey Item -->
+                      </div>  
+<div class="columns">
+                        <!-- Journey Item -->
+                                                <div class="column is-1 is-hidden-mobile"></div>
+
+                        <div class="column is-5">
+                        <a href="assets/docs/multichain-ventures-diagram.pdf">
+                            <div class="journey-box shadow-hover">
+                            <img class="image-box" src="assets/docs/docs-diagram.jpg" alt="">
+                            </div>
+                        <div class="journey-name light-text ">Multichain Ventures Diagram</div>
+                        </a>
+                        </div>
+                        <!-- /Journey Item -->
+ <!-- Journey Item -->
+                        <div class="column is-5">
+                        <a href="assets/docs/multichain-ventures-two-pager.pdf">
+                            <div class="journey-box shadow-hover">
+                            <img class="image-box" src="assets/docs/docs-two-pager.jpg" alt="">
+                            </div>
+                        <div class="journey-name light-text ">Multichain Ventures Intro Two-Pager </div>
+                        </a>
+                        </div>
+                        <!-- /Journey Item -->
+                          </div>  
+                          <div class="columns">
+                        <!-- Journey Item -->
+                                                <div class="column is-1 is-hidden-mobile"></div>
+
+                        <div class="column is-5">
+                        <a href="assets/docs/multichain-ventures-eden-lightpaper.pdf">
+                            <div class="journey-box shadow-hover">
+                            <img class="image-box" src="assets/docs/docs-eden-lightpaper.jpg" alt="">
+                            </div>
+                        <div class="journey-name light-text ">EDEN Lightpaper</div>
+                        </a>
+                        </div>
+                        <!-- /Journey Item -->
+ <!-- Journey Item -->
+                        <div class="column is-5">
+                        <a href="assets/docs/multichain-ventures-tokes-lightpaper.pdf">
+                            <div class="journey-box shadow-hover">
+                            <img class="image-box" src="assets/docs/docs-tokes-lightpaper.jpg" alt="">
+                            </div>
+                        <div class="journey-name light-text ">Tokes Platform Lightpaper</div>
+                        </a>
+                        </div>
+                        <!-- /Journey Item -->
+                          </div>  
+<div class="columns">
+                        <!-- Journey Item -->
+                        <div class="column is-1 is-hidden-mobile"></div>
+                        <div class="column is-5">
+                        <a href="assets/docs/multichain-ventures-tokes-user-onboarding-guide.pdf">
+                            <div class="journey-box shadow-hover">
+                            <img class="image-box" src="assets/docs/docs-tokes-onboarding.jpg" alt="">
+                            </div>
+                        <div class="journey-name light-text ">Tokes Platform Merchant Gateway User Onboarding Guide</div>
+                        </a>
+                        </div>
+                        <!-- /Journey Item -->
+ <!-- Journey Item -->
+                        <div class="column is-5">
+                        <a href="https://payments-api-docs.tokesplatform.org/#tokes-payments-api">
+                            <div class="journey-box shadow-hover">
+                            <img class="image-box" src="assets/docs/docs-tokes-api.jpg" alt="">
+                            </div>
+                        <div class="journey-name light-text ">Tokes Platform API Documentation</div>
+                        </a>
+                        </div></div>
+                        <!-- /Journey Item -->
+                        <div class="columns pb-80">
+                        <div class="column is-1 is-hidden-mobile"></div>
+
+                         <!-- Journey Item -->
+                        <div class="column is-5">
+                        <a href="assets/docs/multichain-ventures-brochure.pdf">
+                            <div class="journey-box shadow-hover">
+                            <img class="image-box" src="assets/docs/docs-brochure.jpg" alt="">
+                            </div>
+                        <div class="journey-name light-text ">Multichain Ventures Comprehensive Brochure</div>
+                        </a>
+                        </div>
+                        <!-- /Journey Item -->
+                      </div>
+                      </div>
+
+
+<!-- /Subscribe Section -->
+<div class="container pb-40" >
+                <div class="columns is-vcentered">
+
+
+
+
+
+                    <!-- CTA content -->
+                    <div class="column is-5 is-offset-1 subscribe-column">
+                        <div class="minimal-feature">
+                            <div class="feature-content light-text subscribe-text">
+                                The Multichain Ventures Token Sale is coming soon. Learn how Multichain Ventures is changing the game.
+                            </div>                            
+
+                        </div>
+                        </div>
+                        <div class="column is-5 is-offset-1 subscribe-column">
+                        <div class="minimal-feature">
+                            <h2 class="title minimal-title bold-text light-text no-margin subscribe-title">Don't Miss Out!</h2>
+
+                            <form id="token_signup" class="control subscribe-form klaviyo_gdpr_embed_QnzyE2" action="https://manage.kmail-lists.com/subscriptions/subscribe?g=QnzyE2" data-ajax-submit="https://manage.kmail-lists.com/ajax/subscriptions/subscribe?g=QnzyE2" method="GET" target="_blank" novalidate="novalidate">
+                                <input type="hidden" name="g" value="QnzyE2">
+                                <input type="text" name="email" id="k_id_email" class="subscribe-input" placeholder="Enter your email">
+                                <div class="klaviyo_form_actions">
+                                    <button type="submit" class="button input-button subscribe-button">OK</button>
+                                </div>
+                                <div class="success_message subscribe-notify subscribe-notify-success" style="display: none;">
+                                    Thank you! Keep an eye out for updates!
+                                </div>
+                                <div class="error_message subscribe-notify subscribe-notify-failure" style="display: none;">
+                                    Not a valid email. Try again.
+                                </div>
+                            </form>
+                            <script type="text/javascript" src="https://www.klaviyo.com/media/js/public/klaviyo_subscribe.js"></script>
+                            <script type="text/javascript">
+                                KlaviyoSubscribe.attachToForms('#token_signup', {
+                                    custom_error_message: true,
+                                    custom_success_message: true,
+                                    extra_properties: {
+                                        $source: 'MultichainVenturesTokenSubscribe',
+                                        Brand: 'MultichainVentures',
+                                    },
+                                    success: () => { fbq('track', 'Lead'); },
+                                });
+                            </script>
+                           
+
+                        </div>
+                    </div>        </div>
+                    </div>
+                    <!-- /CTA content -->
+        
+
+        </section>
+
+  
+
+ 
+        
+        <!-- Contact Section -->
+		<a name="contact"></a>
+        <div class="section is-medium section-feature-grey">
+            <div class="container">
+                <!-- Title -->
+                <div class="section-title-wrapper has-text-centered">
+                    <!-- Divider -->
+                    <div class="special-divider">
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <h2 class="title is-2 dark-font">Interested in learning more?</h2>
+                    <h4 class="subtitle is-4 dark-font">Whether you're a token buyer, cryptocurrency project, merchant, or in need of supply chain visibility tools, we want to hear from you!</h4>
+                </div>
+                <div class="columns">
+                    <div class="column is-6">
+                        <!-- Contact form -->
+                        <div class="contact-form">
+                            <form action="javascript:submitContact()">
+                                <div class="columns is-multiline">
+                                    <div class="column is-6">
+                                        <div class="control">
+                                            <label>Name *</label>
+                                            <input class="input is-medium" type="text" id="name" name="name">
+                                        </div>
+                                    </div>
+                                    <div class="column is-hidden-mobile"></div>
+                                    <div class="column is-6">
+                                        <div class="control">
+                                            <label>Email *</label>
+                                            <input class="input is-medium" type="text" id="email" name="_replyto">
+                                        </div>
+                                    </div>
+                                    <div class="column is-6">
+                                        <div class="control">
+                                            <label>Company *</label>
+                                            <input class="input is-medium" type="text" id="company" name="company">
+                                        </div>
+                                    </div>
+                                    <div class="column is-6">
+                                        <div class="control">
+                                            <label>Area of Interest *</label>
+                                            <select class="input-select is-medium" id="interest" name="interest">
+                                                  <option value="token-sale">Token Sale</option>
+                                                  <option value="merchant-services">Merchant Services</option>
+                                                  <option value="app-hosting">App Hosting</option>
+                                                  <option value="supply-chain">Supply Chain</option>
+                                                  <option value="general-inquiry">General Inquiry</option>
+                                                  <option value="technical-support">Technical Support</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="column is-6">
+                                        <div class="control">
+                                            <label>Industry *</label>
+                                            <input class="input is-medium" id="industry" name="industry" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="column is-12">
+                                        <div class="control">
+                                            <label>Message *</label>
+                                            <textarea class="textarea" rows="4" id="message" name="message"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <input type="hidden" name="_next" value="https://multichain.ventures"/>
+                                <div class="submit-wrapper">
+                                    <input type="submit" id="contact-button" value="Send Message" class="button button-cta is-bold btn-align secondary-btn raised" style="padding-top:15px;padding-bottom:36px;" />
+                                </div>
+                            </form>
+                            <div id="contact-thanks" style="display:none">Thank you!</div>
+                            <script>
+                                function submitContact(e) {
+                                    $.ajax({
+                                        url:'https://formspree.io/mwgbnprm',
+                                        method:'POST',
+                                        data:{
+                                            name: $('#name').val(),
+                                            _replyto: $('#email').val(),
+                                            company: $('#company').val(),
+                                            interest: $('#interest').val(),
+                                            industry: $('#industry').val(),
+                                            message: $('#message').val(),
+                                        },
+                                        dataType:"json",
+                                        success: () => {
+                                            fbq('track', 'Lead');
+                                            $('#name').val(''),
+                                            $('#email').val(''),
+                                            $('#company').val(''),
+                                            $('#interest').val(''),
+                                            $('#industry').val(''),
+                                            $('#message').val(''),
+                                            $('#contact-thanks').show();
+                                            $('#contact-button').hide();
+                                        }	
+                                    });
+                                }
+                            </script>
+                        </div>
+                    </div>
+                    <div class="column is-5 is-offset-1">
+                        <!-- Contact info tabs -->
+                        <div class="contact-toggler">
+                            <ul class="tabbed-links">
+                                <li class="is-active" data-contact="contact-email">Email</li>
+                                <!--<li data-contact="contact-location">Location</li>
+                                <li data-contact="contact-phone">Phone</li>-->
+                            </ul>
+                            <div class="contact-blocks">
+                                <!-- Tab content -->
+                                <div id="contact-email" class="contact-block animated preFadeInUp fadeInUp">
+                                    <div class="contact-icon">
+                                        <i class="fa fa-envelope"></i>
+                                    </div>
+                                    <div class="contact-info">
+                                        <span>Contact us by email</span>
+                                        <span>support@multichain.ventures</span>
+                                    </div>
+                                </div>
+                                <!-- Tab content
+                                <div id="contact-location" class="contact-block animated preFadeInUp fadeInUp is-hidden">
+                                    <div class="contact-icon">
+                                        <i class="fa fa-map"></i>
+                                    </div>
+                                    <div class="contact-info">
+                                        <span>Visit us @ our Office</span>
+                                        <span>87, Cours Charlemagne, Lyon, FRANCE</span>
+                                    </div>
+                                </div>
+                                <!-- Tab content
+                                <div id="contact-phone" class="contact-block animated preFadeInUp fadeInUp is-hidden">
+                                    <div class="contact-icon">
+                                        <i class="fa fa-phone"></i>
+                                    </div>
+                                    <div class="contact-info">
+                                        <span>Call our Support team</span>
+                                        <span>+33 4 56 89 89</span>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                        <!-- Illustration -->
+                        <img src="assets/images/illustrations/drawings/mv-footer-logo.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /Contact Section -->
+        
+        <!-- Footer -->
+        <!-- Simple light footer -->
+        <footer class="footer footer-light-medium">
+            <div class="container">
+                <div class="columns">
+                    <!-- Column -->
+                    <div class="column is-4">
+                        <div class="pt-10 pb-10">
+                            <img class="small-footer-logo" src="assets/images/logos/mv-logo.svg" alt="">
+                            <div class="footer-description pt-10 pb-10">
+                                Multichain Ventures: Blockchain Development &amp; Innovation
+                            </div>
+                        </div>
+                        <div>
+							<strong><span class="moto">Follow Us</span></strong>
+                            <div class="social-links pt-10 pb-10">
+                            <a href="https://twitter.com/Multichain_Vent" target="_blank">
+                                    <span class="icon"><i class="fa fa-twitter"></i></span>
+                                </a>
+                                <a href="https://t.me/multichainventures" target="_blank">
+                                    <span class="icon"><i class="fa fa-paper-plane"></i></span>
+                                </a>
+                                <a href="https://medium.com/multichainventures/" target="_blank">
+                                    <span class="icon"><i class="fa fa-medium"></i></span>
+                                </a>
+                                <a href="https://facebook.com/multichainventures" target="_blank">
+                                    <span class="icon"><i class="fa fa-facebook"></i></span>
+                                </a>
+                                
+                                <a href="https://youtube.com/multichainventures" target="_blank">
+                                    <span class="icon"><i class="fa fa-youtube-play"></i></span>
+                                </a>
+                                <a href="https://github.com/tksventures" target="_blank">
+                                    <span class="icon"><i class="fa fa-github"></i></span>
+                                </a>
+                                <a href="https://instagram.com/multichainventures" target="_blank">
+                                    <span class="icon"><i class="fa fa-instagram"></i></span>
+                                </a>
+								<a href="https://www.reddit.com/r/multichainventures" target="_blank">
+                                    <span class="icon"><i class="fa fa-reddit"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Column -->
+                    <div class="column is-6 is-offset-2">
+                        <div class="columns">
+                            <!-- Column -->
+                            <div class="column">
+                                <ul class="footer-column">
+                                    <li class="column-header">
+                                        Multichain
+                                    </li>
+                                    <li class="column-item"><a href="#token-sale">Token Sale</a></li>
+                                    <li class="column-item"><a href="#portfolio">Our Companies</a></li>
+                                    <li class="column-item"><a href="index.html#tokenomics">Tokenomics</a></li>
+                                    <li class="column-item"><a href="tokensale.html#team">Team</a></li>
+                                    <li class="column-item"><a href="https://medium.com/multichainventures">Blog</a></li>
+                                    <li class="column-item"><a href="documents.html">Whitepaper</a></li>
+                                    <li class="column-item"><a href="#contact">Contact</a></li>
+                                </ul>
+                            </div>
+                            <!-- Column -->
+                            <div class="column">
+                                <ul class="footer-column">
+                                    <li class="column-header">
+                                        Portfolio
+                                    </li>
+                                    <li class="column-item"><a href="https://cubedpay.io">Cubed</a></li>
+                                    <li class="column-item"><a href="https://tokesplatform.org">Tokes Platform</a></li>
+                                    <li class="column-item"><a href="https://eden.software">EDEN</a></li>
+                                    <li class="column-item"><a href="https://reli.cloud">Reli.cloud</a></li>
+                                </ul>
+                            </div>
+                            <!-- Column -->
+                            <div class="column">
+                                <ul class="footer-column">
+                                    <li class="column-header">
+                                        Social Media
+                                    </li>
+                                                                        <li class="column-item"><a href="https://twitter.com/Multichain_Vent" target="_blank">Twitter</a></li>
+                                                                                                            <li class="column-item"><a href="https://t.me/multichainventures" target="_blank">Telegram</a></li>
+
+                                    <li class="column-item"><a href="https://medium.com/multichainventures" target="_blank">Medium</a></li>
+
+
+                                    <li class="column-item"><a href="https://www.facebook.com/multichainventures" target="_blank">Facebook</a></li>
+                                    <li class="column-item"><a href="https://www.youtube.com/multichainventures" target="_blank">YouTube</a></li>
+                                                                        <li class="column-item"><a href="https://github.com/tksventures" target="_blank">GitHub</a></li>
+
+                                    <li class="column-item"><a href="https://instagram.com/multichainventures/" target="_blank">Instagram</a></li>
+
+                                    <li class="column-item"><a href="https://www.reddit.com/r/multichainventures" target="_blank">Reddit</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- /Simple light footer -->        <!-- Side navigation -->
+        <div class="side-navigation-menu">
+            <!-- Categories menu -->
+            <div class="category-menu-wrapper">
+                <!-- Menu -->
+                <ul class="categories">
+                    <li class="square-logo"><img src="assets/images/logos/square-white.svg" alt=""></li>
+                    <li class="category-link is-active" data-navigation-menu="demo-pages"><i class="sl sl-icon-layers"></i></li>
+                    <li class="category-link" data-navigation-menu="onepagers"><i class="sl sl-icon-energy"></i></li>
+                    <li class="category-link" data-navigation-menu="components"><i class="sl sl-icon-grid"></i></li>
+                    <li class="category-link" data-navigation-menu="extras"><i class="sl sl-icon-present"></i></li>
+                </ul>
+                <!-- Menu -->
+        
+                <ul class="author">
+                    <li>
+                        <!-- Theme author -->
+                        <a href="https://cssninja.io" target="_blank">
+                            <img class="main-menu-author" src="assets/images/logos/cssninja.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /Categories menu -->
+        
+                 <!-- Back To Top Button -->
+        <div id="backtotop"><a href="#"></a></div>        <!-- Concatenated jQuery and plugins -->
+        <script src="assets/js/app.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+        <!-- Bulkit js -->
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/landingv4.js"></script>    </body>  
+</html>
