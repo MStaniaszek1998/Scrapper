@@ -52,7 +52,7 @@ It contains the following functions and procedures:
 
 ## How to run it:
 Prerequisites:
-- **You need to have Docker with the docker-compose installed on your machine **
+- **You need to have Docker with the docker-compose installed on your machine**
 
 To run the program you just need to run the .bat script, which will execute the following commands:
 ```shell script
