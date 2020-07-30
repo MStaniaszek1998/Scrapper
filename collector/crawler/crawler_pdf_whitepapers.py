@@ -26,7 +26,7 @@ class PDFWhitepaperCrawler(BaseCrawler):
             statuses.append(status)
         ieos_list['DOWNLOAD_STATUS'] = statuses
         path_to_save = Helper.join_dir_base(save_point, 'metadata_scrapped_whitepapers.csv')
-        Helper.write_df_to_csv(content=ieos_list[cols],path=path_to_save)
+        Helper.write_df_to_csv(content=ieos_list[cols], path=path_to_save)
 
     def download_page(self, row, save_base):
 

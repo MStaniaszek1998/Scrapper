@@ -9,3 +9,18 @@ services:
     ports:
     - 4444:4444
     shm_size: '8gb'
+
+  postgre_db:
+    container_name: dev_postgre_db
+    build:
+      context: ../..
+      dockerfile: docker/postgres/Dockerfile
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: Coinfirm
+    ports:
+    - 5432:5432
+    volumes:
+      - ../../PostgresDev:/var/lib/postgresql/data
+    command: postgres
