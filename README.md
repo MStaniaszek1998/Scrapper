@@ -1,33 +1,37 @@
 
 # Scrapper - Crawler Architecture
 The goal is to crawl the https://icobench.com/ieo page and collect information about Initial
-Exchange Offerings. Itextracts the information about the IEOs into csv and downaloads all related pdfs called whitepapers. <br>
+Exchange Offerings. Program extracts the information about the IEOs into csv and downaloads 
+all whitepapers. <br>
 
-
+![Tech Stack](docs/tech_stack.png)
 
 ## Architecture flow
 ![Architecture Flow](docs/architecture_flow.png)
-1. Crawler requests the links to scrape from the database. If it crawles the website sucessfully it sends a SUCCESS 
-status for the given url, otherwise a FAIL status. Crawler saves raw htmls in the data_raw directory.
+1. Crawler requests the links from the database. If it crawles and saves the website sucessfully it sends a SUCCESS 
+status for the given url, otherwise a FAILURE status. Crawler saves raw htmls in the data_raw directory.
 2. Scrapper opens the downloaded files and extracts information and saves it into csv format. The csv files are saved in
 the data_scrapped folder
 3. There is also optional Inserter, that puts new urls into the datbase. It gets the newly scrapped file and inserts 
 urls from it.
 
 There is also a special step called **meta-crawling**. The example of it is a crawler_list.py, 
-that given only the initial url, crawles the table to get all other links. These will be necessary for later Crawlers.  
+that given only the initial url, crawles the table to get all other links. These are automatically inserted into the database,
+because they are important for further crawling.  
 ## Data Lake Structure
 ![Data Lake Structure](docs/data_lake_structure.png)
 Data Lake is a folder structure for storing data. 
 It distinguishes the data into two categories: raw and scrapped.
-Data_raw has the raw htmls for list of IEOs, profile of each IEO and also whitepaper for each IEO. 
+Data_raw contains raw htmls, that have the information about: list of all IEOs, profiles and whitepapers of IEOs.  
 ![Schema csv](docs/schema_csv_data_scrapped.png)
-Data_scrapped has the data extracted from raw, that is saved into CSV files.
+Data_scrapped has the data extracted from raw htmls, that is saved into CSV files.
+Inserter uses those files as a source for new urls to crawl. 
 ## Database Architecture
-The purpose of the database is to store the urls to crawl and to facilitate fail-recovery. It also enhances workflow among
-crawlers and scrappers.
+The purpose of the database is to store the urls to crawl and also to facilitate fail-recovery. 
+It also enhances workflow among crawlers and scrappers, so that the parallelism can be easily implemented. 
 ![Table schemas](docs/table_schemas.png)
-I have created an API interface for efficient communication between the database and program. It contains
+I have created an API interface to provide the fail-recovery system and also an efficient communication <br>
+It contains the following functions and procedures:
 > CREATE FUNCTION fn_get_ieos(crawler_name URLS.crawler%TYPE) <br>
 > Sends the list of urls to crawl that have either status_code FAILURE or NULL
 
@@ -46,8 +50,15 @@ I have created an API interface for efficient communication between the database
 > Updates the status_code and also includes the time-stamp of crawling of the given url
 
 
-## How to run it
+## How to run it:
+Prerequisites:
+- **You need to have Docker with the docker-compose installed on your machine **
 
+To run the program you just need to run the .bat script, which will execute the following commands:
+```shell script
+docker-compose -f docker\docker-compose\crawler-scrapper-architecture.yml build
+docker-compose -f docker\docker-compose\crawler-scrapper-architecture.yml up
+```
 
-
- 
+ Post Script:<br>
+ All architecture was developed on Linux Ubuntu.

@@ -28,7 +28,9 @@ services:
     environment:
       - DATA_LAKE=/data/
     restart: on-failure
-
+    depends_on:
+      - postgre_db
+      - selenium_chrome
     build:
       context: ../..
       dockerfile: docker/crawler-scrapper/Dockerfile
