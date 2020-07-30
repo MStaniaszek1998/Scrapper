@@ -61,4 +61,4 @@ docker-compose -f docker\docker-compose\crawler-scrapper-architecture.yml up
 ```
 
  Post Script:<br>
- All architecture was developed on Linux Ubuntu.
+ All architecture was developed on Linux Ubuntu and was tested on Windows 10. 
