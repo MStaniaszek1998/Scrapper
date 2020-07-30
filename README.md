@@ -2,14 +2,10 @@
 The goal is to crawl the https://icobench.com/ieo page and collect information about Initial
 Exchange Offerings. It collects the information about the IEOs and their whitepapers. 
 
-## Architecture flow
-1. Crawler sends a GET request to the website (by using either selenium or requests) and saves
- the web page html into Data Lake. 
-2. Scrapper opens the downloaded files and scrapes the information (i.e. name of the IEOs, Rating
-, url to the whitepaper) and saves the result into the data lake.
-3. Inserter puts urls to database to maintain information about url's status of crawling. 
-[Present with image]
+## Metadata Crawling
 
+## Architecture flow
+![Architecture Flow](docs/architecture_flow.png)
 
 ## Data Lake Structure
 Data Lake consists of raw crawled web pages or pdf files and also scrapped information into csv
