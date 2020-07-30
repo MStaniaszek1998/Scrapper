@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
   <meta name="robots" content="noindex, nofollow" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta http-equiv="refresh" content="12">
   <title>Just a moment...</title>
   <style type="text/css">
     html, body {width: 100%; height: 100%; margin: 0; padding: 0;}
@@ -30,23 +31,22 @@
     #cf-hcaptcha-container iframe { display: inline-block;}
   </style>
 
-    <meta http-equiv="refresh" content="12">
-<script type="text/javascript">
+    <script type="text/javascript">
   //<![CDATA[
   (function(){
     
     window._cf_chl_opt={
       cvId: "1",
       cType: "non-interactive",
-      cNounce: "5707",
-      cRay: "5ba7bb15c9cdb88d",
-      cHash: "ddad108c25d3737",
+      cNounce: "59973",
+      cRay: "5bae2bbdfa1bf2cc",
+      cHash: "88e12677ed9aa56",
       cRq: {
-        d: "Te4SU6bSUHe0MHk/Hlib3IYuiZQdNEO4IfVMS29bV+6Y2DEy2618AbCJ3p/5lbnYSMM24Qf/6uoMx+kfLOAXB3WYvgex1sinZjjkaJ3Om//EH25fAeve5qVfnJ7ZtVkW0FpNz2NTTfOUYW8E6NXHSGSSPT9CZ43JlYloiErkS8gyIklCWDMcMdszdvVo8/xl2/BIV+gii1ptQamMr+yHu53qy5mriEhWIm/t9h6lZ/OvslirJrfWYlweAc3xG4HceEOxW9AkLmrcU8IMmHh0JDUsm1L35PDvAGMQYp+GY/GjNqcJGBG60hA+90zWPrHFOQQVcMdHyYKHxfyYYOETh12u0cssnjP3MpcE/nJYBYSiqv7DvMbWPt0Rcj/FHnHu8+TqFVyM87YskIQcX5Bs8w==",
-        t: "MTU5NjAzNTA0OS44ODYwMDA=",
-        m: "LFIBVDgqV+1iRTvF+ISBUch2ruBa7QXphv851ZpERBo=",
-        i1: "Yhj/U1+KT9i9/3yFfFfJuQ==",
-        i2: "5pfg+H8LkyMDfdgfnOggKg==",
+        d: "QYgttOuHFQYZTlL4WnMixofLV5d7l5VEraWP+NThNylJOldAvb3YfoBaeyOGWaqUeyYd3jhm6QOC951Hj3YZBpocfTkzAeTekaFcmH6/0feHM+O7VkiG9GtNyRMT/+8FzIgbJoOvvuCcGN6IK3rSZWa3pdFM8G4W/J7bqLlF+yXOHm1hSGWtVjtBMnEfF6p4qWPzT8r7YrJswO6753EYpvE1ekFZBThOqJ8+UP6IZJc3CRQFhlbvfA5t+gkvtEgj3d29I2lAh2onI3ilFL5079NrlFlrbKd107TfFkB6Wvu3nrwfUtoF+H+Ab9uHccgpjwS6x5BnCWwByIOFcXd1h7oP5ZT8jTmqnWwAuG37IYFOrn8cyjHagZRHDqz+ziMolO1a0tEY/VznRtFgTf9sxg==",
+        t: "MTU5NjEwMjU3OC44ODUwMDA=",
+        m: "vL3JSPcP4H1hi7DrIi5MBBFGHWiP5n/YCZOzA6FhB+4=",
+        i1: "MahAF8DYIQ3WehFsp/M+8A==",
+        i2: "OyRe9U6xdhzM06WZNagI/Q==",
       }
     }
     window._cf_chl_enter = function(){window._cf_chl_opt.p=1};
@@ -59,7 +59,7 @@
       var a = document.getElementById('cf-content');a.style.display = 'block';
       var isIE = /(MSIE|Trident\/|Edge\/)/i.test(window.navigator.userAgent);
       var trkjs = isIE ? new Image() : document.createElement('img');
-      trkjs.setAttribute("src", "/cdn-cgi/images/trace/jschal/js"+cookieSupportInfix+"/transparent.gif?ray=5ba7bb15c9cdb88d");
+      trkjs.setAttribute("src", "/cdn-cgi/images/trace/jschal/js"+cookieSupportInfix+"/transparent.gif?ray=5bae2bbdfa1bf2cc");
       trkjs.id = "trk_jschal_js";
       trkjs.setAttribute("alt", "");
       document.body.appendChild(trkjs);
@@ -109,22 +109,22 @@
     <p data-translate="allow_5_secs">Please allow up to 5 seconds&hellip;</p>
   </div>
    
-  <form class="challenge-form" id="challenge-form" action="/wp-content/uploads/2020/02/Prediqt-IEO-Businesss-Investor-Whitepaper-v5.7-for-website-February-2020.pdf?__cf_chl_jschl_tk__=665ab2bf3ec04a78ac1601d958746fe3ea4f4e82-1596035049-0-AePkNiJ8p2RfpBrbo350xGzN_ErQTBJa5f1pLo4gdvFlibNVKKODy9bgHoALEpfdMUiZCqFQpz0hiLlEngJap9jeMJemGUZCf2xMcUo3pR_Tp9HXpSHriIPMV5wiSbFkBzdPfGC2UVv4Bcby51rNexGx-_fCyF82vLIavYHbwqi_PYHM9zuLVAVBtqdKcMvlRNwlsxDVDTueFRUGzx2qQWqvKO4uH6lQzoe7PYiMS7c7pUAuWWz0lYteW-rxIl2lP6fmnsr5dkroLNadq6n-VNGrx7d5s48EG39UF_B6GQtGxNvDfGpGA9tSar_5bm1FW0mdrcjFBYpyBR0R4BqJtJlqyzw861qYHdLJJ6r6gVYCSOOQU4uK86fe6RGXihIGVdnCHyDxGtWaq22CI9m8Yc8F_fL3_FWXhGZR6NSvyxSW" method="POST" enctype="application/x-www-form-urlencoded">
-    <input type="hidden" name="r" value="4fdc4fdbf804de3a1e5e8dd9653248828e13825e-1596035049-0-AUc4BKLReJQ+Q+gLnAuXRwdg10NMahOeoUwQ3AXWuZ5pqCaXLkITNUS416c2lY6a0VgGCOdYLA5erDfDofY2zFS+fFVovLno5Wb06/Hgz6q0ADXsHterZlHO9j1OnNZUF+t4yi4MDGBGNjG8KYMrEUUCxbVWPDXa+IKS1Fe2eVtbaxbDndFwbAZQShaHOUCI2g/oT+bu60dqr2/r2WXdjIrTdCiqhU8Y2Bbtyrx7vyb0SQc13jMlMg3l5ClKWMbtFp533OzbZn5qnUROqvIEBheqEFGQPE4s+0dc8NeI/BbfVEeyjNuz+pp/noYzbiUIFK/WSIuCPSNDnjxZ0z6a1vR/YdguMlTyMaSmvP8iWaxv5FC7tzUNO9uVrGUql8ZChMpaN0x8vrkW2aJDkBvtPiookfBJ6HT0HeJE/RCSYCXAXjvHzeLWq9LX27EMpOvYFpVK9ADLWdBcWu2rPso1Ah8txJKqAK+DzkbyZky21hbvtdXJCfqINLuQeXeNZCRCa0EYq5SZNoXnsZ7rOOe5dTOCpKyoVrOoxIAPvaEoOPEZDcSsT33l/hV4Q0qU5edB19sLXC74mw3+rA4oxcpoJIH6GZrapxR7Gg9gT3OEIyLuxMCACWOBFJQSIPFXcR9OvrfL/nMO1EmfMpxphk56DAdaVA9Yd/zejSsVLQtUJkUgmIDVEn6+CKacU6jZZ66VTw3NXNK+lGxwmqrQQvQTfIEcH4Secq4tCCiqimwJl6B+9qt0POigQrBc9g2SJ7AGK3foBaDzaLdoJ2swrqBts9PGtHp6FfPepSwhS5mNleaDMhqm3k1zb9uTjLMcd8A/pcxiT5Myn+k+7zgY3Z8t3h6ORkZtwp6s+gT2JEeGxt+Rvl/3wsMsBEUSKVNcfvyDdvdZl3cARSoDD2vFP154ZovCcaO5dizga390Mlz2bHFwKEbsa64Q/bD8OP4psk+/aOByHokfl8bHJnxlqbHfx/b6N6BV6BXVigORI/2ry6V992MMEfMPjctFvcjDxbFTRGzedaH6CML4upROfL51fOt2NrXw9gNhgfd26Qp9TGOCAAUgW6ckR5X1hAA3VKSLbK6mxNXDEFMpq5xBwKcbg3VmJSNE5vVV3sgh36rVrJu/DF2Vl/88AKUGOpTYrrP8BdRJQDTKJ2zCzZQJYzDXf6lBJyD6iFrzMyVm+nGp0Uu7K554G3kCcBzEeaC0nXzr8qgcK8FFsJBYdU7os0rUqsdy3lq4BB1BjvbCEXUtCGuFCTiWXSMy9EAVFuPcu/tK88xkIStv1lTkJt4N1YOEXt8D6+0HGEVW4NoLigYA1hMiHdO9eDIFMFLitNsf4YEVP7hQ84XP0RkzEUldM70dusLr8q3J+DQy2KXOGSYoFkWGz/eYI7z2TRU7+mvpVxgYyzQ8s2BM/bc31BnZEnFiwtL0B5ZD0ImMTK6/i8NW3oOPkIjq//iU3XkM1HcmT7BH6Q=="/>
-    <input type="hidden" value="eaec25849181dc4cc85df9b88c90cec5" id="jschl-vc" name="jschl_vc"/>
+  <form class="challenge-form" id="challenge-form" action="/wp-content/uploads/2020/02/Prediqt-IEO-Businesss-Investor-Whitepaper-v5.7-for-website-February-2020.pdf?__cf_chl_jschl_tk__=8118fe0fa6503173794c46e1321af42fad503368-1596102578-0-Ab9mOcDUuL-fBc4HLaJk4qg-cD-jf8ehDeFCX7utrTmCs0ttovtlCjCWzXpIGg0LbHjAssj1NAncHiG7JKhWsMqCfQie1DVeKDMUyM6xmuF0dK1V6mMIS2c7m--HLdRyZmX2sSuhJHd73Lq-ZDLx5OypJvdSaLhBq-IarW3RUBLvifPRAnjq58XBctwwLY1bfP8OAR_8jlVJ6VNJE-Qrwc_hGVjneLkxwXmsb9iywmW-nZomLFh5qbF7gQJP7s9hJwJWxc5smZVkI42Hv5QPpKgeQaZaP2eVrwmXintKH-USr5eYuBzuZ-H0KXgv6euW2gjGgxM7hZsJIPt5RKYG04eF02BuHVDi497WvWkpZ4m4uQ9ZntvEOgwcAn3vOaFJ-xxXVYa5LvSTvrFrXBAs52Ov4ZIbKRJEEI7FP-DSe8ee" method="POST" enctype="application/x-www-form-urlencoded">
+    <input type="hidden" name="r" value="61b1ac3b5aa9e41846c9950805f19d385533f2ba-1596102578-0-AdE4WrcHHSBjijRd6QxTg1QA4L4/O/rqOv6cAT4HRUYbDrSWnrvih7jDTdTWm53RC5HqUP0qCx5mVyFsPj34vhEuB/DoOFIdtyj/FLdaAXKL7/tJLKhbOuH7c89KJHrSVV7rQEbJpNRzSn+WsU2WMaoVgrI2sZEmYYadner6eSJUiOCEcd3r8YrouvzImjz2XyKMoa4IAToGgPPB6fBY/oQk6nbS8kwj1l2opQF+4i3pfvr3gRt3QZSX5pj+m/qRsxlkW8ePhoUThT1len70XrBX1+IAj8tUBFE6Dl66u4prnogQGzVByT/hp446hGu5nWNTVIH0O4YvfMyC848e94//FGRGtrLEeBccuMo6O4LeVfd5zI8j/GaaP8K2TlDMeZ40LWm4gHc3k1YPLUEH3yJy2zko60OWn1kK/8rGnh+8W11k9ys9LTWhklsmJxioM0fedvawzr0fNqy/YGJI1mpIXlMffMSrxOwQh3Px8OY9pI/CqnNY84YzCrcw6x1l+hC14Wqm6I1oRg1uutGGejg6iAT8tnUWC+a3w1qrMFZvByJlTrp4poihjUsWdkoZxZ0QNWuU92qb7faj+67yqH9yKEuUu4rROFPkm6iJ2LvjfrsUdSRYVCCUmYqvkTCrAQMrJQTjq2aBzYq1e6wnsbzP74hjDXo0X2muw3h6CR1Px9U+/w094KrTA6eZabD0oe1NkuqzwUbDQIVnPMcCvJb7/qHJ7o4KAiO96q8gZwMUPa8EbppSUzsx8vzpIUsMSf402QaNH9MZd59NvrFkcr0dhYnbh1z4lpV9TAAaUWQTsDlutHkrBUbwJ0soVbCpxIwcVcZt22/hGlrc6BYfPnVimRyYuPInYPLPCxXcEWsdh6vOrfyAAR5rXlsnYbY62q/BoDzak4w2DpBcQJPeW+3dLtJqD27Y7s0Qdevt5OufLErcRZ+IU6u3UhrpBbMh1sfZmT/o92n7h7FX7pPYf+nogUi+2V3xzft6Guxjffr75zVeFdJR6fxVp6Y7dtWq4m13OFkXr02+goQaoq9q+5XXSX55PnKhnacXSZmpEKkk8EoycCMRK4rAQYr3ls8XSSZ+4IJ1KHskaJ5H0Hj/ZK2ai46FcAWxoBM8ACx5uEsA4DznyBV6t866nA2KPsdS7AR3NJtqFmYiGSp1hwRNSKKZL1dq9tL4WDQLiIy1bYFfjJmrBQQmTl1qLJzL8pABMwdU3pMmWIVi5TmHelQSEv2DvuW6cr+fxfYWS9PviCagkkik/eYVYGL21oPR3vuRVYzLcSSj5nGKFzp+5N8GBIy6daNeiCJGZhE91M+XdqImAtwa2j7b0yajmHf7XJmxzJMJy1alUBWenf+xalLFhjNLCp7bxcbP+dlC0VIhO0IiszoJP4cBPlGZokBNx3ik/sChjbj7D3KsMK20YIFl3FVy5KMtFuCpJ/fAcKV6yzrC35iWM7Cwl1ymbvVT73Z9sTWvUWHjEaOk+6PlQXoxADg="/>
+    <input type="hidden" value="d0cd4ce34615aa99c5fcfb0e8bc6c11d" id="jschl-vc" name="jschl_vc"/>
     <!-- <input type="hidden" value="" id="jschl-vc" name="jschl_vc"/> -->
-    <input type="hidden" name="pass" value="1596035053.886-vhw5613E+v"/>
+    <input type="hidden" name="pass" value="1596102582.885-PWqpo4Ne8U"/>
     <input type="hidden" id="jschl-answer" name="jschl_answer"/>
   </form>
   
-  <div id="trk_jschal_nojs" style="background-image:url('/cdn-cgi/images/trace/jschal/nojs/transparent.gif?ray=5ba7bb15c9cdb88d')"> </div>
+  <div id="trk_jschal_nojs" style="background-image:url('/cdn-cgi/images/trace/jschal/nojs/transparent.gif?ray=5bae2bbdfa1bf2cc')"> </div>
 </div>
 
           
           <div class="attribution">
-            DDoS protection by <a href="https://www.cloudflare.com/5xx-error-landing/" target="_blank">Cloudflare</a>
+            DDoS protection by <a href="https://www.cloudflare.com/5xx-error-landing?utm_source=iuam" target="_blank">Cloudflare</a>
             <br />
-            <span class="ray_id">Ray ID: <code>5ba7bb15c9cdb88d</code></span>
+            <span class="ray_id">Ray ID: <code>5bae2bbdfa1bf2cc</code></span>
           </div>
       </td>
      

@@ -2,7 +2,7 @@ version: '3.5'
 
 services:
   selenium_chrome:
-    container_name: dev_selenium_chrome
+    container_name: prod_selenium_chrome
     build:
       context: ../..
       dockerfile: docker/selenium_chrome/Dockerfile
@@ -24,3 +24,19 @@ services:
 
     shm_size: '8gb'
     command: bash -c "python3 -u /collector/main.py "
+
+
+  postgre_db:
+    container_name: prod_postgre_db
+    build:
+      context: ../..
+      dockerfile: docker/postgres/Dockerfile
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: Coinfirm
+    ports:
+    - 5432:5432
+    volumes:
+      - ../../PostgresProd:/var/lib/postgresql/data
+    command: postgres

@@ -134,7 +134,7 @@ var wpcf7 = {"apiSettings":{"root":"https:\/\/earthbi.io\/wp-json\/contact-form-
 <script type='text/javascript' src='https://earthbi.io/wp-content/plugins/contact-form-7/includes/js/scripts.js'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var cnArgs = {"ajaxUrl":"https:\/\/earthbi.io\/wp-admin\/admin-ajax.php","nonce":"4de813b506","hideEffect":"fade","position":"bottom","onScroll":"0","onScrollOffset":"100","onClick":"0","cookieName":"cookie_notice_accepted","cookieTime":"2592000","cookieTimeRejected":"2592000","cookiePath":"\/","cookieDomain":"","redirection":"0","cache":"0","refuse":"0","revokeCookies":"0","revokeCookiesOpt":"automatic","secure":"1","coronabarActive":"0"};
+var cnArgs = {"ajaxUrl":"https:\/\/earthbi.io\/wp-admin\/admin-ajax.php","nonce":"83e7ebd123","hideEffect":"fade","position":"bottom","onScroll":"0","onScrollOffset":"100","onClick":"0","cookieName":"cookie_notice_accepted","cookieTime":"2592000","cookieTimeRejected":"2592000","cookiePath":"\/","cookieDomain":"","redirection":"0","cache":"0","refuse":"0","revokeCookies":"0","revokeCookiesOpt":"automatic","secure":"1","coronabarActive":"0"};
 /* ]]> */
 </script>
 <script type='text/javascript' src='https://earthbi.io/wp-content/plugins/cookie-notice/js/front.min.js'></script>

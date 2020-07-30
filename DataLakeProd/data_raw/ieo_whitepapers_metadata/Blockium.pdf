@@ -45,7 +45,7 @@
 
     <!-- Global Data -->
     <script>
-        window.Spark = {"braintreeMerchantId":null,"braintreeToken":null,"cardUpFront":false,"collectsBillingAddress":true,"collectsEuropeanVat":true,"createsAdditionalTeams":true,"csrfToken":"3UsRbiWPEjTmnM06nge74a30SKszg6zfFmbpRJss","currencySymbol":"$","env":"production","roles":[],"state":{"user":null,"teams":[],"currentTeam":null},"stripeKey":"pk_live_e4QZlwMhPFKGIwXdgGYZsZlU","teamString":"team","pluralTeamString":"teams","userId":null,"usesApi":true,"usesBraintree":false,"usesTeams":false,"usesStripe":true};
+        window.Spark = {"braintreeMerchantId":null,"braintreeToken":null,"cardUpFront":false,"collectsBillingAddress":true,"collectsEuropeanVat":true,"createsAdditionalTeams":true,"csrfToken":"kKMEhOAsQUOx03s1rjshpRumCktH8FYaTaaPtZuT","currencySymbol":"$","env":"production","roles":[],"state":{"user":null,"teams":[],"currentTeam":null},"stripeKey":"pk_live_e4QZlwMhPFKGIwXdgGYZsZlU","teamString":"team","pluralTeamString":"teams","userId":null,"usesApi":true,"usesBraintree":false,"usesTeams":false,"usesStripe":true};
 
         window.app = {
             env: 'production',
@@ -189,7 +189,7 @@
     </nav>
 
 
-    <document-view document-json='{"id":"sAMYojj","filename":"Blockium_Whitepaper.pdf","name":"Blockium_Whitepaper","ext":"pdf","type":"document","status":"ok","visibility":"public","allow_download":true,"allow_search_engines_index":true,"allow_embed":"any","allow_copy_text":true,"links":[{"rel":"self","uri":"https:\/\/www.docdroid.net\/api\/document\/sAMYojj"},{"rel":"link","uri":"https:\/\/www.docdroid.net\/sAMYojj\/blockium-whitepaper-pdf"},{"rel":"shortlink","uri":"https:\/\/docdro.id\/sAMYojj"},{"rel":"download","type":"application\/pdf","uri":"https:\/\/www.docdroid.net\/file\/download\/sAMYojj\/blockium-whitepaper-pdf.pdf?e=1596038630\u0026s=fed7837d9a486ad17a267e78fba79b1d"},{"rel":"view","type":"application\/pdf","uri":"https:\/\/www.docdroid.net\/file\/view\/sAMYojj\/blockium-whitepaper-pdf.pdf?e=1596038630\u0026s=d10bcf371184db5471ee2bb220bf8c42"},{"rel":"thumbnail","type":"image\/jpeg","uri":"https:\/\/www.docdroid.net\/file\/view\/sAMYojj\/blockium-whitepaper-pdf.jpg"}]}' viewer="pdfjs" show-ads="1" show-external-window-link="1" subscribed="" pdfjs-worker="/js/pdfjs-worker.js?id=6e7d2917ad977dc4e817" ref="view" inline-template>
+    <document-view document-json='{"id":"sAMYojj","filename":"Blockium_Whitepaper.pdf","name":"Blockium_Whitepaper","ext":"pdf","type":"document","status":"ok","visibility":"public","allow_download":true,"allow_search_engines_index":true,"allow_embed":"any","allow_copy_text":true,"links":[{"rel":"self","uri":"https:\/\/www.docdroid.net\/api\/document\/sAMYojj"},{"rel":"link","uri":"https:\/\/www.docdroid.net\/sAMYojj\/blockium-whitepaper-pdf"},{"rel":"shortlink","uri":"https:\/\/docdro.id\/sAMYojj"},{"rel":"download","type":"application\/pdf","uri":"https:\/\/www.docdroid.net\/file\/download\/sAMYojj\/blockium-whitepaper-pdf.pdf?e=1596106153\u0026s=cee6bbd9ebd7beddfdcbd1ee0509e58b"},{"rel":"view","type":"application\/pdf","uri":"https:\/\/www.docdroid.net\/file\/view\/sAMYojj\/blockium-whitepaper-pdf.pdf?e=1596106153\u0026s=129187921544c4c2b8db6b2f25e849b3"},{"rel":"thumbnail","type":"image\/jpeg","uri":"https:\/\/www.docdroid.net\/file\/view\/sAMYojj\/blockium-whitepaper-pdf.jpg"}]}' viewer="pdfjs" show-ads="1" show-external-window-link="1" subscribed="" pdfjs-worker="/js/pdfjs-worker.js?id=6e7d2917ad977dc4e817" ref="view" inline-template>
 
 
 

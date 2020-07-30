@@ -30,7 +30,7 @@ class ScrapperIeosList(ScrapperBase):
         dataframe['links'] = self.get_links(root=root)
         dataframe['links'] = dataframe['links'].apply(lambda x: Helper.create_url(extended_path=x))
         dataframe = dataframe.drop(['Review', 'Project'], axis=1)
-        dataframe = dataframe.rename(columns={"Project.1": "Project_Name"})
+        dataframe = dataframe.rename(columns={"Project.1": "project"})
         return dataframe
 
     @get_save_path(path='data_scrapped/ieo_list_scrapped')

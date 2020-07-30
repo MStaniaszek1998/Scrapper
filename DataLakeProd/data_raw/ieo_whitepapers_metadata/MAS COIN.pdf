@@ -426,7 +426,7 @@ var zilla_likes = {"ajaxurl":"https:\/\/mascoin.co\/wp-admin\/admin-ajax.php"};
     </div>
     <div class="col-md-5">
         <div class="wpdm-button-area mb-3 p-3 card">
-            <a class='wpdm-download-link download-on-click btn btn-primary ' rel='nofollow' href='#' data-downloadurl="https://mascoin.co/download/emas-coin-white-paper/?wpdmdl=6819&refresh=5f219175dce0a1596035445">Download</a>
+            <a class='wpdm-download-link download-on-click btn btn-primary ' rel='nofollow' href='#' data-downloadurl="https://mascoin.co/download/emas-coin-white-paper/?wpdmdl=6819&refresh=5f2299a38666d1596103075">Download</a>
         </div>
         <ul class="list-group ml-0 mb-2">
             <li class="list-group-item d-flex justify-content-between align-items-center wpdm_hide wpdm_remove_empty">
@@ -517,7 +517,7 @@ var zilla_likes = {"ajaxurl":"https:\/\/mascoin.co\/wp-admin\/admin-ajax.php"};
 <!--  -->
             <script>
                 jQuery(function($){
-                    $.get('https://mascoin.co/?_nonce=7ec61568f8&id=6819');
+                    $.get('https://mascoin.co/?_nonce=f7277d6359&id=6819');
                 });
             </script>
             <!-- Your Google Analytics Plugin is missing the tracking ID -->

@@ -245,7 +245,7 @@ var zilla_likes = {"ajaxurl":"https:\/\/www.decimated.net\/wp-admin\/admin-ajax.
 <script src='https://www.decimated.net/wp-content/plugins/smart-countdown-fx/js/vendor/velocity.min.js?ver=5.4.2'></script>
 <script>
 /* <![CDATA[ */
-var smartcountdownajax = {"url":"https:\/\/www.decimated.net\/wp-admin\/admin-ajax.php","nonce":"4c41e3c97c"};
+var smartcountdownajax = {"url":"https:\/\/www.decimated.net\/wp-admin\/admin-ajax.php","nonce":"d78023e28b"};
 var smartcountdownstrings = {"seconds":"Seconds","seconds_1":"Second","seconds_2":"Seconds","minutes":"Minutes","minutes_1":"Minute","minutes_2":"Minutes","hours":"Hours","hours_1":"Hour","hours_2":"Hours","days":"Days","days_1":"Day","days_2":"Days","weeks":"Weeks","weeks_1":"Week","weeks_2":"Weeks","months":"Months","months_1":"Month","months_2":"Months","years":"Years","years_1":"Year","years_2":"Years"};
 /* ]]> */
 </script>
