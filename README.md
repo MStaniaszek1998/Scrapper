@@ -31,18 +31,18 @@ The purpose of the database is to store the urls to crawl and also to facilitate
 It also enhances workflow among crawlers and scrappers, so that the parallelism can be easily implemented. 
 ![Table schemas](docs/table_schemas.png)
 I have created an API interface to provide the fail-recovery system and also an efficient communication <br>
-It contains the following functions and procedures:
-**CREATE FUNCTION fn_get_ieos(crawler_name URLS.crawler%TYPE)** <br>
+It contains the following functions and procedures:<br>
+- **CREATE FUNCTION fn_get_ieos(crawler_name URLS.crawler%TYPE)** <br>
 Sends the list of urls to crawl that have either status_code FAILURE or NULL<br>
 
-**PROCEDURE insert_new_urls (
+- **PROCEDURE insert_new_urls (
     url urls.url%TYPE,
     crawler urls.crawler%TYPE,
     project_name urls.project%TYPE,
     status_code urls.status_code%TYPE DEFAULT Null,
     SCRAPE_TIME urls.scrape_time%TYPE DEFAULT Null)**<br>
 Inserts new links for later crawling <br>
-**PROCEDURE update_urls (
+- **PROCEDURE update_urls (
     url_a urls.url%TYPE,
     status_code_a urls.status_code%TYPE ,
     SCRAPE_TIME_a urls.scrape_time%TYPE)**
