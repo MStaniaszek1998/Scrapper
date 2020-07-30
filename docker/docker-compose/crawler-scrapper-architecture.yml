@@ -1,0 +1,41 @@
+version: '3.5'
+
+services:
+  selenium_chrome:
+    container_name: prod_selenium_chrome
+    build:
+      context: ../..
+      dockerfile: docker/selenium_chrome/Dockerfile
+    ports:
+    - 4444:4444
+    shm_size: '8gb'
+
+  postgre_db:
+    container_name: prod_postgre_db
+    build:
+      context: ../..
+      dockerfile: docker/postgres/Dockerfile
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: Coinfirm
+    ports:
+    - 5432:5432
+    command: postgres
+
+  crawler-scraper:
+    container_name: crawler-scrapper
+    environment:
+      - DATA_LAKE=/data/
+    restart: on-failure
+    depends_on:
+      - postgre_db
+      - selenium_chrome
+    build:
+      context: ../..
+      dockerfile: docker/crawler-scrapper/Dockerfile
+    volumes:
+      - ../../DataLakeProd:/data
+
+    shm_size: '8gb'
+    command: bash -c "python3 -u /collector/main.py "

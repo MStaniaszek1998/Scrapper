@@ -71,6 +71,13 @@ class Helper:
         content.to_csv(path, index=False)
 
     @staticmethod
+    def read_csv_to_df(path: str = None):
+        dataframe = pd.read_csv(path)
+        return dataframe
+
+
+    @staticmethod
     def create_url(extended_path, base_path='https://icobench.com/'):
         url = urllib.parse.urljoin(base_path, extended_path)
         return url
+

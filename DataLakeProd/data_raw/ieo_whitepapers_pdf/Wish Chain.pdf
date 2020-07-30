@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>NoSuchBucket</Code><Message>The specified bucket does not exist</Message><BucketName>wishchain</BucketName><RequestId>3D5F084A79006B74</RequestId><HostId>7oQcXH/zRZnRMBLV6QAUSPCxGxptldE63mDxL/08yPhCsVs8834awRtJFpsjQKi8prPLzDJ6dr4=</HostId></Error>

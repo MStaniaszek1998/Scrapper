@@ -10,13 +10,14 @@ from typing import Optional, Tuple, AnyStr, Dict, Union
 from bs4 import BeautifulSoup
 import bs4
 
-
 # import own
-from utils import  Helper,FileTypes
+from utils import Helper, FileTypes
+
 
 class ScrapperBase(ABC):
     def __init__(self, path_to_scrapped: str = None):
         self.config_path = path_to_scrapped
+        self.scrapped_list_path = None
 
     @abstractmethod
     def parse_files(self):
@@ -59,7 +60,7 @@ class ScrapperBase(ABC):
         There is an exception for getting path to the to-be-scrapped file, because some scrappers
         needs the date of the file when it was scrapped"""
         base_dir = Helper.get_access_to_environment()
-        html_raws = Helper.join_dir_base(dir=base_dir,basename=self.config_path)
+        html_raws = Helper.join_dir_base(dir=base_dir, basename=self.config_path)
         file_to_process = f"{html_raws}/*.{file_type.name}"
 
         for path in glob.glob(file_to_process):
@@ -70,3 +71,5 @@ class ScrapperBase(ABC):
             else:
                 content = Helper.open_file(path=path)
                 yield project_name, content
+
+

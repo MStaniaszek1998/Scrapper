@@ -8,6 +8,7 @@ from utils import Helper,get_save_path
 class ScrapperIeosList(ScrapperBase):
     def __init__(self):
         self.get_raw_html = 'data_raw/ieo_list_raw_html'
+
         super().__init__(path_to_scrapped=self.get_raw_html)
 
     def get_links(self,root):
@@ -27,8 +28,9 @@ class ScrapperIeosList(ScrapperBase):
         dataframe = pd.read_html(table_conent)[0]
 
         dataframe['links'] = self.get_links(root=root)
+        dataframe['links'] = dataframe['links'].apply(lambda x: Helper.create_url(extended_path=x))
         dataframe = dataframe.drop(['Review', 'Project'], axis=1)
-        dataframe = dataframe.rename(columns={"Project.1": "Project_Name"})
+        dataframe = dataframe.rename(columns={"Project.1": "project"})
         return dataframe
 
     @get_save_path(path='data_scrapped/ieo_list_scrapped')
@@ -38,4 +40,5 @@ class ScrapperIeosList(ScrapperBase):
         for _,content in self.get_next_file():
             frames.append(self.parse_file(content=content))
         save_path = Helper.join_dir_base(save_point,'scrapped_ieos_list.csv')
+        self.scrapped_list_path = save_path
         Helper.write_df_to_csv(path=save_path,content=frames[0])
