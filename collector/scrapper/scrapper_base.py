@@ -11,7 +11,7 @@ from bs4 import BeautifulSoup
 import bs4
 
 # import own
-from utils import Helper, FileTypes,
+from utils import Helper, FileTypes
 
 
 class ScrapperBase(ABC):

@@ -7,10 +7,10 @@ Exchange Offerings. It collects the information about the IEOs and their whitepa
  the web page html into Data Lake. 
 2. Scrapper opens the downloaded files and scrapes the information (i.e. name of the IEOs, Rating
 , url to the whitepaper) and saves the result into the data lake.
+3. Inserter puts urls to database to maintain information about url's status of crawling. 
 [Present with image]
 
-A database system is used to store the information If the requested url was scrapped successfully
- or there was a failure. It will 
+
 ## Data Lake Structure
 Data Lake consists of raw crawled web pages or pdf files and also scrapped information into csv
  format.
@@ -30,6 +30,8 @@ Data Scrapped contains:
 - **scrapped_ieos_profiles.csv** - it contains scrapped information from profiles. Currently only
  url to whitepapers in order to download them. <br>
 [Input image schema]
+
+## 
 
 
  

@@ -9,20 +9,7 @@ def generate_path(path_extension: str = None):
     return folder_path
 
 
-def get_ieos_list(crawler_name:str='Previouse'):
-    def decorator(func):
-        def wrapper(*args, **kwargs):
-            file_path = generate_path(path_extension=path)
 
-            dataframe = pd.read_csv(file_path)
-
-            kwargs['ieos_list'] = dataframe
-
-            return func(*args, **kwargs)
-
-        return wrapper
-
-    return decorator
 
 
 def get_save_path(path: str = 'DataLake/path'):
@@ -54,6 +41,27 @@ def connection_to_postgresql(database_name: str = 'Coinfirm'):
 
                 result = func(*args, **kwargs)
                 return result
+
+        return wrapper
+
+    return decorator
+
+@connection_to_postgresql(database_name='Coinfirm')
+def get_dataframe(conn=None, get_query: str = None) -> pd.DataFrame:
+    company_list = pd.read_sql_query(get_query, conn)
+    return company_list
+
+
+def get_ieos_list(crawler:str='Previous'):
+    def decorator(func):
+        def wrapper(*args, **kwargs):
+
+            query = f"SELECT * FROM fn_get_ieos(crawler_name := '{crawler}')"
+            dataframe = get_dataframe(get_query=query)
+
+            kwargs['ieos_list'] = dataframe
+
+            return func(*args, **kwargs)
 
         return wrapper
 
