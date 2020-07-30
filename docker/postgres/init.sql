@@ -1,3 +1,6 @@
+
+DROP TABLE IF EXISTS Statuses, URLS;
+
 CREATE TABLE Statuses(
     STATUS_CODE numeric(10) primary key not null,
     STATUS_NAME varchar(100) null
