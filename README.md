@@ -1,6 +1,9 @@
+
 # Scrapper - Crawler Architecture
 The goal is to crawl the https://icobench.com/ieo page and collect information about Initial
-Exchange Offerings. It collects the information about the IEOs and their whitepapers. 
+Exchange Offerings. Itextracts the information about the IEOs into csv and downaloads all related pdfs called whitepapers. <br>
+
+
 
 ## Architecture flow
 ![Architecture Flow](docs/architecture_flow.png)
@@ -11,30 +14,40 @@ the data_scrapped folder
 3. There is also optional Inserter, that puts new urls into the datbase. It gets the newly scrapped file and inserts 
 urls from it.
 
-There is also a special step called meta-crawling. The example of it is a crawler_list.py, that given only the initial url, 
-crawles the table to get all other links to crawl later. 
-
+There is also a special step called **meta-crawling**. The example of it is a crawler_list.py, 
+that given only the initial url, crawles the table to get all other links. These will be necessary for later Crawlers.  
 ## Data Lake Structure
-Data Lake consists of raw crawled web pages or pdf files and also scrapped information into csv
- format.
-There are two Data lakes; one for development purposes and the second for production.
-Data Lake is divided into two separate folders: 
-- **data_raw** - where all raw data is stored 
-- **data_scrapped** - where the data is stored into csv format ready for further ETL processing. 
+![Data Lake Structure](docs/data_lake_structure.png)
+Data Lake is a folder structure for storing data. 
+It distinguishes the data into two categories: raw and scrapped.
+Data_raw has the raw htmls for list of IEOs, profile of each IEO and also whitepaper for each IEO. 
+![Schema csv](docs/schema_csv_data_scrapped.png)
+Data_scrapped has the data extracted from raw, that is saved into CSV files.
+## Database Architecture
+The purpose of the database is to store the urls to crawl and to facilitate fail-recovery. It also enhances workflow among
+crawlers and scrappers.
+![Table schemas](docs/table_schemas.png)
+I have created an API interface for efficient communication between the database and program. It contains
+> CREATE FUNCTION fn_get_ieos(crawler_name URLS.crawler%TYPE) <br>
+> Sends the list of urls to crawl that have either status_code FAILURE or NULL
 
-Data Raw has the following raw data:
-- ieo_list_raw_html - contains only one html file with the list of all IEOs
-- ieo_profiles_raw_html - contains a lot of html files with contents about each IEOs
-- ieo_whitepapers - contains all downloaded pdf files from IEOs' profiles
+> PROCEDURE insert_new_urls (
+    url urls.url%TYPE,
+    crawler urls.crawler%TYPE,
+    project_name urls.project%TYPE,
+    status_code urls.status_code%TYPE DEFAULT Null,
+    SCRAPE_TIME urls.scrape_time%TYPE DEFAULT Null)<br>
+> Inserts new links for later crawling 
+ 
+> PROCEDURE update_urls (
+    url_a urls.url%TYPE,
+    status_code_a urls.status_code%TYPE ,
+    SCRAPE_TIME_a urls.scrape_time%TYPE)<br>
+> Updates the status_code and also includes the time-stamp of crawling of the given url
 
-Data Scrapped contains:
-- **scrapped_ieos_list.csv** - file with information about each IEOs such as:<br>
-[Input image schema]
-- **scrapped_ieos_profiles.csv** - it contains scrapped information from profiles. Currently only
- url to whitepapers in order to download them. <br>
-[Input image schema]
 
-## 
+## How to run it
+
 
 
  

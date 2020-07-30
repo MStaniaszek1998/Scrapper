@@ -14,7 +14,7 @@ class PDFWhitepaperCrawler(BaseCrawler):
     def __init__(self):
         super().__init__(use_selenium=False)
 
-    @get_save_path(path='data_raw/ieo_whitepapers_metadata')
+    @get_save_path(path='data_raw/ieo_whitepapers_pdf')
     @get_ieos_list(crawler='IeosProfilesCrawler')
     def crawl_pages(self, save_point, ieos_list):
         print(ieos_list)

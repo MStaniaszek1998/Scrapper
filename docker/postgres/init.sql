@@ -56,6 +56,6 @@ returns table(url urls.url%TYPE, project urls.project%TYPE)
 as
 $$
 SELECT url,project FROM URLS
-WHERE CRAWLER=crawler_name
+WHERE CRAWLER=crawler_name and (STATUS_CODE is NULL  or STATUS_CODE !=0)
 $$;
 
