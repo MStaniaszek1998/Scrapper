@@ -45,8 +45,7 @@ Inserts new links for later crawling <br>
 - **PROCEDURE update_urls (
     url_a urls.url%TYPE,
     status_code_a urls.status_code%TYPE ,
-    SCRAPE_TIME_a urls.scrape_time%TYPE)**
-<br>
+    SCRAPE_TIME_a urls.scrape_time%TYPE)**<br>
 Updates the status_code and also includes the time-stamp of crawling of the given url<br>
 
 
