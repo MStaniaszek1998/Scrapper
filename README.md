@@ -2,10 +2,17 @@
 The goal is to crawl the https://icobench.com/ieo page and collect information about Initial
 Exchange Offerings. It collects the information about the IEOs and their whitepapers. 
 
-## Metadata Crawling
-
 ## Architecture flow
 ![Architecture Flow](docs/architecture_flow.png)
+1. Crawler requests the links to scrape from the database. If it crawles the website sucessfully it sends a SUCCESS 
+status for the given url, otherwise a FAIL status. Crawler saves raw htmls in the data_raw directory.
+2. Scrapper opens the downloaded files and extracts information and saves it into csv format. The csv files are saved in
+the data_scrapped folder
+3. There is also optional Inserter, that puts new urls into the datbase. It gets the newly scrapped file and inserts 
+urls from it.
+
+There is also a special step called meta-crawling. The example of it is a crawler_list.py, that given only the initial url, 
+crawles the table to get all other links to crawl later. 
 
 ## Data Lake Structure
 Data Lake consists of raw crawled web pages or pdf files and also scrapped information into csv
