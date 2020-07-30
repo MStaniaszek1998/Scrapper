@@ -32,7 +32,7 @@ It also enhances workflow among crawlers and scrappers, so that the parallelism 
 ![Table schemas](docs/table_schemas.png)
 I have created an API interface to provide the fail-recovery system and also an efficient communication <br>
 It contains the following functions and procedures:<br>
-- **CREATE FUNCTION fn_get_ieos(crawler_name URLS.crawler%TYPE)** <br>
+- **FUNCTION fn_get_ieos(crawler_name URLS.crawler%TYPE)** <br>
 Sends the list of urls to crawl that have either status_code FAILURE or NULL<br>
 
 - **PROCEDURE insert_new_urls (
