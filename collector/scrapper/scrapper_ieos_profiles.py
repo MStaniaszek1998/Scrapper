@@ -28,5 +28,6 @@ class IeosProfilesScrapper(ScrapperBase):
 
             frames.append(self.parse_file(content=content,name=project_name))
         save_path = Helper.join_dir_base(save_point,'scrapped_ieos_profiles.csv')
+        self.scrapped_list_path = save_path
         df = pd.DataFrame(data=frames,columns=columns)
         Helper.write_df_to_csv(path=save_path,content=df)

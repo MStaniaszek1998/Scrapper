@@ -5,6 +5,7 @@ selenium, and gives access to generic functions for each scrapper"""
 
 import random
 import time
+from datetime import datetime
 from typing import Union, AnyStr
 from abc import ABC, abstractmethod
 import requests
@@ -13,7 +14,7 @@ from selenium import webdriver
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from selenium.webdriver.common.keys import Keys
 
-from utils import Helper
+from utils import Helper,PLSQLExecutor
 
 
 class BaseCrawler(ABC):
@@ -84,3 +85,11 @@ class BaseCrawler(ABC):
     @abstractmethod
     def crawl_pages(self):
         pass
+
+    def report_success_url(self, url):
+        now = datetime.now()
+        PLSQLExecutor.update_urls(status_code=0, url=url, scrape_time_a=now)
+
+    def report_failure_url(self, url):
+        now = datetime.now()
+        PLSQLExecutor.update_urls(status_code=1, url=url, scrape_time_a=now)

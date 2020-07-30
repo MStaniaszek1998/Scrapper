@@ -14,8 +14,12 @@ class IeosProfilesCrawler(BaseCrawler):
 
         for _, row in tqdm(ieos_list.iterrows()):
             print(f'COLLECTING RAW FOR {row["Project_Name"]}')
-            url_to_scrape = Helper.create_url(extended_path=row['links'])
-            self.get(url_to_scrape)
-            self.scroll_to_the_end_html()
+            url_to_scrape = row['url']
+            try:
+                self.get(url_to_scrape)
+                self.scroll_to_the_end_html()
+                self.report_success_url(url=url_to_scrape)
+            except:
+                self.report_failure_url(url=url_to_scrape)
             path_to_save = Helper.join_dir_base(save_point, f"{row['Project_Name']}.html")
             Helper.save_file(save_path=path_to_save, content=self.driver.page_source)

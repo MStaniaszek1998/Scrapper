@@ -10,6 +10,7 @@ VALUES (0,'SUCCESS'), (1,'FAILURE');
 CREATE TABLE URLS (
     URL varchar(2000) primary key not null,
     STATUS_CODE numeric(10) null REFERENCES Statuses(STATUS_CODE),
+    CRAWLER varchar (100) not null,
     SCRAPE_TIME timestamp null
 );
 
@@ -17,14 +18,15 @@ CREATE TABLE URLS (
 
 CREATE PROCEDURE insert_new_urls (
     url urls.url%TYPE,
+    crawler urls.crawler%TYPE,
     status_code urls.status_code%TYPE DEFAULT Null,
     SCRAPE_TIME urls.scrape_time%TYPE DEFAULT Null
 
 )
 language sql
 as $$
-    INSERT INTO URLS (URL,STATUS_CODE,SCRAPE_TIME)
-    VALUES(url,status_code,SCRAPE_TIME)
+    INSERT INTO URLS (URL,crawler,STATUS_CODE,SCRAPE_TIME)
+    VALUES(url,crawler,status_code,SCRAPE_TIME)
 $$;
 
 
