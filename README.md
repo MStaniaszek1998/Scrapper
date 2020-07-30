@@ -33,6 +33,7 @@ It also enhances workflow among crawlers and scrappers, so that the parallelism 
 I have created an API interface to provide the fail-recovery system and also an efficient communication <br>
 It contains the following functions and procedures:
 > CREATE FUNCTION fn_get_ieos(crawler_name URLS.crawler%TYPE) <br>
+<br>
 Sends the list of urls to crawl that have either status_code FAILURE or NULL
 
 > PROCEDURE insert_new_urls (
@@ -41,12 +42,14 @@ Sends the list of urls to crawl that have either status_code FAILURE or NULL
     project_name urls.project%TYPE,
     status_code urls.status_code%TYPE DEFAULT Null,
     SCRAPE_TIME urls.scrape_time%TYPE DEFAULT Null)<br>
+<br>
 Inserts new links for later crawling 
  
 > PROCEDURE update_urls (
     url_a urls.url%TYPE,
     status_code_a urls.status_code%TYPE ,
     SCRAPE_TIME_a urls.scrape_time%TYPE)<br>
+<br>
 Updates the status_code and also includes the time-stamp of crawling of the given url
 
 
