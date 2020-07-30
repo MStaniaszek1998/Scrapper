@@ -32,25 +32,22 @@ It also enhances workflow among crawlers and scrappers, so that the parallelism 
 ![Table schemas](docs/table_schemas.png)
 I have created an API interface to provide the fail-recovery system and also an efficient communication <br>
 It contains the following functions and procedures:
-> CREATE FUNCTION fn_get_ieos(crawler_name URLS.crawler%TYPE) <br>
-<br>
-Sends the list of urls to crawl that have either status_code FAILURE or NULL
+**CREATE FUNCTION fn_get_ieos(crawler_name URLS.crawler%TYPE)** <br>
+Sends the list of urls to crawl that have either status_code FAILURE or NULL<br>
 
-> PROCEDURE insert_new_urls (
+**PROCEDURE insert_new_urls (
     url urls.url%TYPE,
     crawler urls.crawler%TYPE,
     project_name urls.project%TYPE,
     status_code urls.status_code%TYPE DEFAULT Null,
-    SCRAPE_TIME urls.scrape_time%TYPE DEFAULT Null)<br>
-<br>
-Inserts new links for later crawling 
- 
-> PROCEDURE update_urls (
+    SCRAPE_TIME urls.scrape_time%TYPE DEFAULT Null)**<br>
+Inserts new links for later crawling <br>
+**PROCEDURE update_urls (
     url_a urls.url%TYPE,
     status_code_a urls.status_code%TYPE ,
-    SCRAPE_TIME_a urls.scrape_time%TYPE)<br>
+    SCRAPE_TIME_a urls.scrape_time%TYPE)**
 <br>
-Updates the status_code and also includes the time-stamp of crawling of the given url
+Updates the status_code and also includes the time-stamp of crawling of the given url<br>
 
 
 ## How to run it:
