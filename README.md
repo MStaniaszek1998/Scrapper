@@ -58,4 +58,5 @@ docker-compose -f docker\docker-compose\crawler-scrapper-architecture.yml up --b
 ```
 
 
- All architecture was developed on Linux Ubuntu and was tested on Windows 10. 
+ All architecture was developed on Linux Ubuntu 18.04.4 LTS and was tested on: Windows 10 and 
+ Ubuntu 18.04.4 LTS. 
