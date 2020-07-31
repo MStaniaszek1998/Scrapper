@@ -57,5 +57,5 @@ To run the program you just need to run the .bat script, which will execute the 
 docker-compose -f docker\docker-compose\crawler-scrapper-architecture.yml up --build
 ```
 
- Post Script:<br>
+
  All architecture was developed on Linux Ubuntu and was tested on Windows 10. 
