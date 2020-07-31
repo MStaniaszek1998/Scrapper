@@ -9,7 +9,7 @@ class Inserter:
         self.df = self.df.dropna()
 
     def insert_url_to_database(self,crawler_name):
-        print()
+        self.df.drop_duplicates(inplace=True,subset=self.insert_col)
         for _,row in tqdm(self.df.iterrows()):
             url = row[self.insert_col]
             proj_name = row['project']

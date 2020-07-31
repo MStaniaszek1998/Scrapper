@@ -35,7 +35,7 @@ img.emoji {
 <link rel='stylesheet' id='fontawesome-css-4-css'  href='https://coinanalyst.tech/wp-content/plugins/wp-font-awesome/font-awesome/css/font-awesome.min.css?ver=1.7.6' type='text/css' media='all' />
 <link rel='stylesheet' id='fontawesome-css-5-css'  href='https://coinanalyst.tech/wp-content/plugins/wp-font-awesome/font-awesome/css/fontawesome-all.min.css?ver=1.7.6' type='text/css' media='all' />
 <link rel='stylesheet' id='wpm-main-css'  href='//coinanalyst.tech/wp-content/plugins/wp-multilang/assets/styles/main.min.css?ver=2.4.1' type='text/css' media='all' />
-<link rel='stylesheet' id='child-understrap-styles-css'  href='https://coinanalyst.tech/wp-content/themes/socializer/css/child-theme.min.css?ver=0.5.6.110' type='text/css' media='all' />
+<link rel='stylesheet' id='child-understrap-styles-css'  href='https://coinanalyst.tech/wp-content/themes/socializer/css/child-theme.min.css?ver=0.5.6.129' type='text/css' media='all' />
 <script type='text/javascript' src='https://coinanalyst.tech/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
 <script type='text/javascript' src='https://coinanalyst.tech/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
 <link rel='https://api.w.org/' href='https://coinanalyst.tech/en/wp-json/' />
@@ -211,7 +211,7 @@ img.emoji {
 
 					<div class="site-info">
 
-						<a href="https://wordpress.org/">Proudly powered by WordPress</a><span class="sep"> | </span>Theme: UnderStrap Child: Socializer by <a href="http://understrap.com">understrap.com</a>.(Version: 0.5.6.110)
+						<a href="https://wordpress.org/">Proudly powered by WordPress</a><span class="sep"> | </span>Theme: UnderStrap Child: Socializer by <a href="http://understrap.com">understrap.com</a>.(Version: 0.5.6.129)
 					</div><!-- .site-info -->
 
 				</footer><!-- #colophon -->
@@ -227,7 +227,7 @@ img.emoji {
 </div><!-- #page we need this extra closing tag here -->
 
 <script type='text/javascript' src='https://coinanalyst.tech/wp-content/plugins/anchor-block/public/anchor-block.js?ver=1577481865'></script>
-<script type='text/javascript' src='https://coinanalyst.tech/wp-content/themes/socializer/js/child-theme.min.js?ver=0.5.6.110'></script>
+<script type='text/javascript' src='https://coinanalyst.tech/wp-content/themes/socializer/js/child-theme.min.js?ver=0.5.6.129'></script>
 <script type='text/javascript' src='https://coinanalyst.tech/wp-includes/js/wp-embed.min.js?ver=5.4.2'></script>
 
 </body>

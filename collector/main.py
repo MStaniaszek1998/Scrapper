@@ -1,6 +1,6 @@
 from crawler import IEOListCrawler,IeosProfilesCrawler,PDFWhitepaperCrawler
 from scrapper import ScrapperIeosList,IeosProfilesScrapper
-from utils import Inserter
+from utils import Inserter, PLSQLExecutor
 
 
 
@@ -11,9 +11,8 @@ from utils import Inserter
 
 
 def main():
+    PLSQLExecutor.delete_rows_url()
     print('Initialize folders:')
-
-
     print('COLLECT INITIAL LIST OF IEOs RAW HTML')
     ieo_crawler = IEOListCrawler()
     ieo_crawler.crawl_pages()

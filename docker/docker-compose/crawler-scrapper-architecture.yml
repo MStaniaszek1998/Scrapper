@@ -2,7 +2,7 @@ version: '3.5'
 
 services:
   selenium_chrome:
-    container_name: prod_selenium_chrome
+    container_name: selenium_chrome
     build:
       context: ../..
       dockerfile: docker/selenium_chrome/Dockerfile
@@ -10,8 +10,8 @@ services:
     - 4444:4444
     shm_size: '8gb'
 
-  postgre_db:
-    container_name: prod_postgre_db
+  db_postgre:
+    container_name: postgre_db
     build:
       context: ../..
       dockerfile: docker/postgres/Dockerfile
@@ -29,8 +29,8 @@ services:
       - DATA_LAKE=/data/
     restart: on-failure
     depends_on:
-      - postgre_db
       - selenium_chrome
+      - db_postgre
     build:
       context: ../..
       dockerfile: docker/crawler-scrapper/Dockerfile

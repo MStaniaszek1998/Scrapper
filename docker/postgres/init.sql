@@ -19,6 +19,13 @@ CREATE TABLE URLS (
 );
 
 
+CREATE PROCEDURE delete_all_rows (
+)
+language sql
+as $$
+   DELETE FROM URLS;
+$$;
+
 
 CREATE PROCEDURE insert_new_urls (
     url urls.url%TYPE,

@@ -55,7 +55,6 @@ Prerequisites:
 
 To run the program you just need to run the .bat script, which will execute the following commands:
 ```shell script
-docker-compose -f docker\docker-compose\crawler-scrapper-architecture.yml build --no-cache
 docker-compose -f docker\docker-compose\crawler-scrapper-architecture.yml up
 ```
 
