@@ -10,10 +10,9 @@ all whitepapers. <br>
 ![Architecture Flow](docs/architecture_flow.png)
 1. Crawler requests the links from the database. If it crawles and saves the website sucessfully it sends a SUCCESS 
 status for the given url, otherwise a FAILURE status. Crawler saves raw htmls in the data_raw directory.
-2. Scrapper opens the downloaded files and extracts information and saves it into csv format. The csv files are saved in
+2. Scrapper opens the downloaded files; extracts information; saves it into csv format. The csv files are saved in
 the data_scrapped folder
-3. There is also optional Inserter, that puts new urls into the datbase. It gets the newly scrapped file and inserts 
-urls from it.
+3. Inserter puts new urls into the database. It gets the newly scrapped file and inserts urls from it.
 
 There is also a special step called **meta-crawling**. The example of it is a crawler_list.py, 
 that given only the initial url, crawles the table to get all other links. These are automatically inserted into the database,
@@ -22,7 +21,7 @@ because they are important for further crawling.
 ![Data Lake Structure](docs/data_lake_structure.png)
 Data Lake is a folder structure for storing data. 
 It distinguishes the data into two categories: raw and scrapped.
-Data_raw contains raw htmls, that have the information about: list of all IEOs, profiles and whitepapers of IEOs.  
+Data_raw contains raw htmls, that have the information about: list of all IEOs, profiles and whitepapers.  
 ![Schema csv](docs/schema_csv_data_scrapped.png)
 Data_scrapped has the data extracted from raw htmls, that is saved into CSV files.
 Inserter uses those files as a source for new urls to crawl. 
