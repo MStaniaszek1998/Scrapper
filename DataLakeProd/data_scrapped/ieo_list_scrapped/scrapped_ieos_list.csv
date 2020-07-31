@@ -10,9 +10,9 @@ GIFTO,Ended$30M,Binance Launchpad,4.2,GTO,"14 Dec, 2017",https://icobench.com/ic
 Windhan Energy,Ended$28.7M,Exmarkets Launchpad,3.5,WHN,"21 Mar, 2019",https://icobench.com/ico/windhan-energy
 ioeX,Ended$27.2M,LBank Launchpad,3.5,IOEX,"18 Apr, 2019",https://icobench.com/ico/ioex
 harmony,Ended$23M,Binance Launchpad,3.1,ONE,"28 May, 2019",https://icobench.com/ico/harmony
-MultiVAC,Ended$16.2M,Multiple,3.1,MTV,"03 Apr, 2019",https://icobench.com/ico/multivac
+MultiVAC,Ended$16.2M,Multiple,3.0,MTV,"03 Apr, 2019",https://icobench.com/ico/multivac
 COTI,Ended$15M,Kucoin Spotlight,3.8,COTI,"28 May, 2019",https://icobench.com/ico/coti
-Akropolis,Ended$12.6M,Huobi Prime,3.7,AKT,"16 Jul, 2019",https://icobench.com/ico/akropolis
+Akropolis,Ended$12.6M,Huobi Prime,3.6,AKT,"16 Jul, 2019",https://icobench.com/ico/akropolis
 ECOMI,Ended$10.5M,Bitforex Launchpad,4.1,OMI,"12 May, 2019",https://icobench.com/ico/ecomi
 Band Protocol,Ended$10M,Binance Launchpad,3.5,BAND,"16 Sep, 2019",https://icobench.com/ico/band-protocol
 Squeezer,Ended$9M,Bitforex Launchpad,4.6,SQR,"10 Jun, 2019",https://icobench.com/ico/squeezer
@@ -37,7 +37,7 @@ Ampleforth,Ended$5M,Bitfinex Launchpad,2.6,AMPL,"27 Jun, 2019",https://icobench.
 Matic,Ended$5M,Binance Launchpad,3.8,MATIC,"24 Apr, 2019",https://icobench.com/ico/matic-network
 Neutro,Ended$4.7M,Coineal Launchpad,3.2,NTO,"27 Jul, 2019",https://icobench.com/ico/neutro
 VECAP,Ended$4.7M,Coineal Launchpad,3.9,VC,"06 Jun, 2019",https://icobench.com/ico/vecap
-Spin Protocol,Ended$4.4M,Probit Launchpad,2.9,SPIN,"19 Mar, 2019",https://icobench.com/ico/spin-protocol
+Spin Protocol,Ended$4.4M,Probit Launchpad,2.8,SPIN,"19 Mar, 2019",https://icobench.com/ico/spin-protocol
 Verasity,Ended$4M,Probit Launchpad,4.4,VRA,"01 Mar, 2019",https://icobench.com/ico/verasity
 Celer Network,Ended$3.9M,Binance Launchpad,3.9,CELR,"19 Mar, 2019",https://icobench.com/ico/celer-network
 ZeroBank,Ended$3.9M,Coineal Launchpad,3.8,ZB,"31 Mar, 2019",https://icobench.com/ico/zerobank
@@ -53,7 +53,7 @@ pukkamex,Ended$2.6M,LBank Launchpad,4.1,PUX,"23 Aug, 2019",https://icobench.com/
 Auditchain,Ended$2.5M,Exmarkets Launchpad,3.7,AUDT,"09 Feb, 2019",https://icobench.com/ico/auditchain
 Poseidon,Ended$2.4M,ABCC Launchpad,3.6,OCEAN,"13 May, 2019",https://icobench.com/ico/poseidon-foundation
 GEXAN,Ended$2.1M,p2pb2b Launchpad,3.2,GEX,"10 May, 2019",https://icobench.com/ico/gexan
-ESAX,Ended$2M,p2pb2b Launchpad,3.3,ESAX,"18 Nov, 2019",https://icobench.com/ico/esax
+ESAX,Ended$2M,p2pb2b Launchpad,3.2,ESAX,"18 Nov, 2019",https://icobench.com/ico/esax
 CYBR,Ended$2M,Coineal Launchpad,3.9,CYBR,"23 Jun, 2019",https://icobench.com/ico/cybr
 Stonecoin,Ended$2M,Bitinka Launchpad,3.0,STO,"21 Jun, 2019",https://icobench.com/ico/stonecoin
 IZIChain,Ended$2M,Coineal Launchpad,2.8,IZI,"20 Apr, 2019",https://icobench.com/ico/izichain
@@ -91,7 +91,7 @@ AlienCloud,Ended$631.3K,IDAX Launchpad,2.9,ALS,"16 Apr, 2019",https://icobench.c
 Ten Billion Coin IEO,Ended$630K,Multiple,3.5,YBY,"28 Aug, 2019",https://icobench.com/ico/ten-billion-coin-ieo
 Vectorium Plus,Ended$626.2K,Exmarkets Launchpad,3.8,VCTP,"31 Oct, 2019",https://icobench.com/ico/vectorium-plus
 Membrana,Ended$600K,Multiple,4.2,MBN,"17 Jun, 2019",https://icobench.com/ico/membrana
-V Systems,Ended$600K,ZB Launchpad,3.0,VSYS,"28 Mar, 2019",https://icobench.com/ico/v-systems
+V Systems,Ended$600K,ZB Launchpad,2.9,VSYS,"28 Mar, 2019",https://icobench.com/ico/v-systems
 TEN Token,Ended$576K,Coineal Launchpad,2.6,GDEM,"20 May, 2019",https://icobench.com/ico/ten-token
 REDi,Ended$532K,Multiple,2.7,REDI,"03 Apr, 2019",https://icobench.com/ico/redi
 Btccredit,Ended$500K,Probit Launchpad,2.9,BTCC,"29 Nov, 2019",https://icobench.com/ico/btccredit
@@ -184,8 +184,8 @@ ASTRcoin,Ended—,Latoken Launchpad,2.4,ASTR,"27 Sep, 2019",https://icobench.com
 Navibration,Ended—,Probit Launchpad,3.5,NAVI,"25 Sep, 2019",https://icobench.com/ico/navibration
 Azuma Games,Ended—,Latoken Launchpad,2.6,AZUM,"20 Sep, 2019",https://icobench.com/ico/azuma-games
 Curate,Ended—,p2pb2b Launchpad,4.1,CUR8,"16 Sep, 2019",https://icobench.com/ico/curate
-AlphaX,Ended—,p2pb2b Launchpad,3.9,AX,"16 Sep, 2019",https://icobench.com/ico/alphax
 Captive,Ended—,Latoken Launchpad,2.7,CAPCT,"16 Sep, 2019",https://icobench.com/ico/captive
+AlphaX,Ended—,p2pb2b Launchpad,3.9,AX,"16 Sep, 2019",https://icobench.com/ico/alphax
 CazPlus,Ended—,Exmarkets Launchpad,3.6,CAZPLUS,"15 Sep, 2019",https://icobench.com/ico/cazplus
 DIVO,Ended—,Probit Launchpad,3.4,DIVO,"11 Sep, 2019",https://icobench.com/ico/divo
 BeatzCoin,Ended—,Probit Launchpad,3.7,BTZC,"10 Sep, 2019",https://icobench.com/ico/beatzcoin
@@ -234,26 +234,26 @@ Hiway,Ended—,Exmarkets Launchpad,4.1,WAY,"07 Jun, 2019",https://icobench.com/i
 Smathium,Ended—,Probit Launchpad,3.9,SMT,"05 Jun, 2019",https://icobench.com/ico/smathium
 Alphacon,Ended—,Probit Launchpad,4.0,ALP,"04 Jun, 2019",https://icobench.com/ico/alphacon
 Uncloak,Ended—,p2pb2b Launchpad,4.0,UNC,"04 Jun, 2019",https://icobench.com/ico/uncloak
-Autonomy,Ended—,IDAX Launchpad,3.5,ATNMY,"01 Jun, 2019",https://icobench.com/ico/autonomy
-Octera,Ended—,Latoken Launchpad,2.6,OT,"01 Jun, 2019",https://icobench.com/ico/octera
 Guider,Ended—,Probit Launchpad,4.2,GDR,"01 Jun, 2019",https://icobench.com/ico/guider
+Octera,Ended—,Latoken Launchpad,2.6,OT,"01 Jun, 2019",https://icobench.com/ico/octera
+Autonomy,Ended—,IDAX Launchpad,3.5,ATNMY,"01 Jun, 2019",https://icobench.com/ico/autonomy
 Codemy,Ended—,Probit Launchpad,2.3,CDM,"29 May, 2019",https://icobench.com/ico/codemy
 Сhromia,Ended—,Kucoin Spotlight,2.6,CHR token,"28 May, 2019",https://icobench.com/ico/сhromia
 Jobchain,Ended—,Probit Launchpad,4.3,JOB,"28 May, 2019",https://icobench.com/ico/jobchain
 Biido,Ended—,Probit Launchpad,2.2,BION,"27 May, 2019",https://icobench.com/ico/biido
 Global Property Register,Ended—,Exmarkets Launchpad,3.9,XRX,"26 May, 2019",https://icobench.com/ico/global-property-register
-Cherry Cube,Ended—,Probit Launchpad,2.2,CTO,"24 May, 2019",https://icobench.com/ico/cherry-cube
-xCrypt,Ended—,Multiple,3.9,XCT,"24 May, 2019",https://icobench.com/ico/xcrypt
-ListeningMind,Ended—,Probit Launchpad,2.7,LMT,"24 May, 2019",https://icobench.com/ico/listeningmind
 Tripedia,Ended—,Probit Launchpad,2.0,TPD,"24 May, 2019",https://icobench.com/ico/tripedia
+xCrypt,Ended—,Multiple,3.9,XCT,"24 May, 2019",https://icobench.com/ico/xcrypt
+Cherry Cube,Ended—,Probit Launchpad,2.2,CTO,"24 May, 2019",https://icobench.com/ico/cherry-cube
+ListeningMind,Ended—,Probit Launchpad,2.7,LMT,"24 May, 2019",https://icobench.com/ico/listeningmind
 NEMODaX,Ended—,Probit Launchpad,2.6,NEMO,"23 May, 2019",https://icobench.com/ico/nemodax
 TranslateMe,Ended—,Probit Launchpad,3.5,TMN,"22 May, 2019",https://icobench.com/ico/translateme
 ExploreCoin,Ended—,Probit Launchpad,2.8,XPC,"21 May, 2019",https://icobench.com/ico/explorecoin
-Futurepia,Ended—,BW Launchpad,4.0,PIA,"20 May, 2019",https://icobench.com/ico/futurepia
 Azultec,Ended—,Probit Launchpad,3.8,AZU,"20 May, 2019",https://icobench.com/ico/azultec
 Silica neXus,Ended—,Latoken Launchpad,2.4,DROID,"20 May, 2019",https://icobench.com/ico/silica-nexus
-Migranet,Ended—,IDAX Launchpad,4.0,MIG,"16 May, 2019",https://icobench.com/ico/migranet
+Futurepia,Ended—,BW Launchpad,4.0,PIA,"20 May, 2019",https://icobench.com/ico/futurepia
 Allive,Ended—,OK Jumpstart,2.0,ALV,"16 May, 2019",https://icobench.com/ico/allive
+Migranet,Ended—,IDAX Launchpad,4.0,MIG,"16 May, 2019",https://icobench.com/ico/migranet
 Connectome,Ended—,ABCC Launchpad,2.0,CNTM,"15 May, 2019",https://icobench.com/ico/connectome
 Rapidz,Ended—,Latoken Launchpad,2.6,RPZX,"14 May, 2019",https://icobench.com/ico/rapidz
 XCOYNZ,Ended—,Exmarkets Launchpad,3.7,XCZ,"10 May, 2019",https://icobench.com/ico/xcoynz
@@ -262,8 +262,8 @@ Volum,Ended—,Latoken Launchpad,3.4,VLM,"04 May, 2019",https://icobench.com/ico
 Fashion Coin,Ended—,Latoken Launchpad,2.7,FSHN,"02 May, 2019",https://icobench.com/ico/fashion-coin
 Airsave Travel,Ended—,Exmarkets Launchpad,3.8,ASTC,"01 May, 2019",https://icobench.com/ico/airsave-travel-1
 Trias,Ended—,Kucoin Spotlight,2.2,TRY,"30 Apr, 2019",https://icobench.com/ico/trias
-ClinicAll,Ended—,Latoken Launchpad,3.4,CHT,"30 Apr, 2019",https://icobench.com/ico/clinicall
 Ocean Protocol,Ended—,Bittrex International,3.2,OCN,"30 Apr, 2019",https://icobench.com/ico/ocean-protocol
+ClinicAll,Ended—,Latoken Launchpad,3.4,CHT,"30 Apr, 2019",https://icobench.com/ico/clinicall
 Tunetrade,Ended—,IDAX Launchpad,3.0,TXT,"29 Apr, 2019",https://icobench.com/ico/tunetrade
 Jura,Ended—,Probit Launchpad,2.4,JURA,"29 Apr, 2019",https://icobench.com/ico/jura
 Faireum,Ended—,p2pb2b Launchpad,4.3,FAIRC,"25 Apr, 2019",https://icobench.com/ico/faireum

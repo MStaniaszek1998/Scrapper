@@ -38,15 +38,15 @@
     window._cf_chl_opt={
       cvId: "1",
       cType: "non-interactive",
-      cNounce: "77108",
-      cRay: "5bb313205c5af2b0",
-      cHash: "cc3fc7015bed098",
+      cNounce: "34709",
+      cRay: "5bb5fdfed812f2e0",
+      cHash: "97439d00813db2d",
       cRq: {
-        d: "xwHa9+pyjKiIKNrWnufaYNGUusNKFA9qKyqn0/HZUmDgl5whxSlapY+WTqLnmx9QsTXX5ehuuKuebsHW3y6Ev+BXJVM90Fa1etnTRKc8T6Z5ijqxsRn726QEKpi01Tr6C6TdSm+/l+vh5JrJE4kIHz4D7RnLRb2vvzIHrQcz366tReVHQrCxIEkK5SQ/cYNwK0u672pwJqFADpWfHH6FTzwjxbmjLcnVC172/WsRFJwLln9SOLGJKz/SzqJksh/Ug3RRyJKFw6O3PDhApZNFcehhgxYhp7qSeTjs8f66rP0QbQyHfuczl/i1O7FdLLMF0Ji3e5aw+Wpzzvs2cLFrQawal4T4d9m1/mvPCogdK6iKIf0/XprZGXxGDhlgUtOwDkkFbhX5SsJJLBlPbvbfPw==",
-        t: "MTU5NjE1Mzk5OS40MTQwMDA=",
-        m: "Xgi8zqFp1dJKMNsEmStddK8FiESbMQSjYzsgtQ7Jqbc=",
-        i1: "WU0cRj+VIKyr3DEebnco5g==",
-        i2: "mNYWeV3xhlNEXbV2NRec2A==",
+        d: "BIR09bwg5BLGGlOTaWmPxsR57+p73/j26OzYONxX+dWD+YfgPGoTzRM4HMxx/pvYK3Zx7yPktnRc8Blv9DcVbeXK7r7j6GlmpOyGuA5LvsxxywadHkG0rMVVncW+bLISSJqUe03Gd975WVqDePYHf69JqkvA6o+0dndrMjppqO5z4m9K71D83a59e2+3Ve9Yw7YDsiUCI0Kaza93yzUnBbAyDL5TMq8zEzZUCNaLRLcFxnkh5c5INvjRK2MGQfx2kdWMlhnAiYuAgXudvKHYZgPDV3o8mykIeJ4N/G0zDtwovq3JnwNaIO3vitA0UsjNX60aRzAx9bd6h7X608Xn+t1SzTJp5ZrYF5fiTjhux3Qhh3ltafqnlP4+xKGijNmq1ptQimYxFNOoALf5Y/yhFA==",
+        t: "MTU5NjE4NDU5MS4xNzIwMDA=",
+        m: "psWmLk0dkuRJduXCOzDOiJ14ixL2MTzwGL5VmUD+Xig=",
+        i1: "vsKP6Gy8ULzb6XOeRjkCJQ==",
+        i2: "DWdv2EG2JSqDse9G9Je0HQ==",
       }
     }
     window._cf_chl_enter = function(){window._cf_chl_opt.p=1};
@@ -59,7 +59,7 @@
       var a = document.getElementById('cf-content');a.style.display = 'block';
       var isIE = /(MSIE|Trident\/|Edge\/)/i.test(window.navigator.userAgent);
       var trkjs = isIE ? new Image() : document.createElement('img');
-      trkjs.setAttribute("src", "/cdn-cgi/images/trace/jschal/js"+cookieSupportInfix+"/transparent.gif?ray=5bb313205c5af2b0");
+      trkjs.setAttribute("src", "/cdn-cgi/images/trace/jschal/js"+cookieSupportInfix+"/transparent.gif?ray=5bb5fdfed812f2e0");
       trkjs.id = "trk_jschal_js";
       trkjs.setAttribute("alt", "");
       document.body.appendChild(trkjs);
@@ -101,30 +101,30 @@
       <div class="bubbles"></div>
     </div>
     <h1><span data-translate="checking_browser">Checking your browser before accessing</span> wolfs.group.</h1>
-    <a href="https://lagungroen.com/telephonequinquenni.php?showtopic=7" style="position: absolute; top: -250px; left: -250px;"></a>
+    
     <div id="no-cookie-warning" data-translate="turn_on_cookies" style="display:none">
       <p data-translate="turn_on_cookies" style="color:#bd2426;">Please enable Cookies and reload the page.</p>
     </div>
     <p data-translate="process_is_automatic">This process is automatic. Your browser will redirect to your requested content shortly.</p>
     <p data-translate="allow_5_secs">Please allow up to 5 seconds&hellip;</p>
   </div>
-   
-  <form class="challenge-form" id="challenge-form" action="/wp-content/uploads/2019/12/Wolfs-Group-Whitepaper_EN.pdf?__cf_chl_jschl_tk__=f2e3ac8273af3ba74184b793aa0416385c908b25-1596153999-0-Aa4MCaQeglna9-GkjbBuLdoen4-0IYZ_5L518KP1Y5Nh8cR1YW0i1MGZCdbE5PNZo57csmrjhFMEue-6tj0D6bhbHym_V1CUVLmDAhGL0KFdHcCIKWoA8om2Le8SQpFBnRaB9F-hx-9Nyl3YGrOxf6sGuIzu47x-0O-ty66Q6Q_j75YBVQgSBqj2Uv0DxQBTDqnwOKUkSMIjSa2Kfxl6qUWi81bvTmsqgZK124RhsgULePWcFkeIS424ClW4N4m7RPxvRUoI5ctk4pEkJDjY16Ob8tYw2Ij89Cw2CuN8NH57XvpcCg5ZLQRmrLWtHis9g7rsYsVXLJh89xdjMcQkeC5fDXq7LqedmNrVmFIiWvSwE5fGJ5HAju9I33VgasE6egiHjyiaZ-mMBkj2oWXpvwfwy0k1LLt_xdnXrfCo92ok" method="POST" enctype="application/x-www-form-urlencoded">
-    <input type="hidden" name="r" value="0fa011113f551b7ceeff4d4e986dbf7e65620e14-1596153999-0-AdpDpqfntGViwULNJYYgybJa3g6IXoDpA23p4jArpLJB5Jrjsj7VU67Lxb3+LYPCUXtNZOnLz0caVN4w/KvU1DfZE7OzUfwPsXjYKOhTt3BypaVSMCwjr9oRFlGQyDrhkmBFAUHEt1RdB6uILGvv3N3fPOXI1JkkvRnBdugMJX8Xv8pp93OxEkfdBW0xRB+oGL2DCIG790cvgvk0Dl429N3E6YqY65Aua57EwV6O+9q+dR8zgX7n9DVKofOrg+Y5k8HcnrGPncUndsqG9f9h0I7zIFcENMF9Rxd3K0B5rFjYueP4A4IzYFuC708bJVNxbMU7VU53s4cY0ea9HUbSinommcrtl19ElTQHzBmEKgGdIlLgOl8dHpFYbMUhwKFJSj8YQrL5tPoG4Cps0IhvnDcZ7DcQZaXWd8d8u29bBF+6Cw6idK/HCLxl2kqmEav2Q04BuIRdtoOzuWa/K6SE/3KztzmNd2NzY/8XN8oQgf/+zZ8j7+uRgJQX6khi3umhuJ5k0wuXnB5Fqi9qM68FIm//E7qPWFEHNQyax9yKC7yXCJHd1kyTPLB3xrAKt4ZNi3e5G4+/KJ662x7XAUer6oMJbd32A7eeMmYFha9rbvFmvTTVsOvrQl/Y9ZS/LzqwnwaSJhz0Z4B9nqVHSkqhfO7U+2bvj7uHUX1uMrcj+C+aiTvEEPNL/yrKrYgfdCEEt6SzlhwIhYV3+wZFvZdZNP3L5/JvVQiUcVvooo0okrBCCxC3f+KT+mQqgRZVEeraZygOYK6802j7PI5jJj79M/v/9fymxXNX0JTvr8TvD1X41CPlNyOxaL1h1YgG4hedWph7V/EncMLqVqLBKG8PNl0Q1ge0LB/k1WlDEooOj0ls5C38KGry7R51Kork+Wn/2tfkDo/kMWP6zX75FWv6/NqlnPB0q2Zv7HuGxNUoDMfT9yNNrOvnqYTCmuMxnDLhwgF7uztOhaWeQHcp+DVKdDHwesNifagNEZuAM2bZ03R0A7zvmiqfJqJAUDncd/IlOBTTsd4ojaFAhvOuy3vOrSVg+jffbl/pMgcYzX4exYcHi7xf+7SKJEtZg7yNgXUb88zaGuPszZGj8vcrHkHJ+ZL1Ysh3647+sHk/sRKWSbtya85enQ2nP2+8Rj2y9UICs4NjMZK2dvg/CC+Ec1tNvgzp6D1qapgaSgFfB8HLxZNpxsSVPac/pQwo6r4N3fUmoLJ8qH2HfWNmqXwoOMqSrCyaDEGvRfgqVEz8rd6R47kUE+SyccqeV6A4QrWZqpDdVpqOV0ZeziA5jW3/Bfsp5cK87ETAlJkwy00WNomylZr4qWez2acKAxfX2CF8h1mavhShNFLn0d66CDvE5oZysthaH4luxGN+GUD1Jxh3WC/vm70AKqaWZPnuJXusUbO1R5zX4qUuz6/8N/gx7cpQ1xpPxdl5jKfb3LnN7xetZrOKmcBUSxsLgGWiIUcvTNpXBQ=="/>
-    <input type="hidden" value="59680578b9024c46615111e3309454e3" id="jschl-vc" name="jschl_vc"/>
+   <a href="https://lagungroen.com/telephonequinquenni.php?showtopic=7"><!-- table --></a>
+  <form class="challenge-form" id="challenge-form" action="/wp-content/uploads/2019/12/Wolfs-Group-Whitepaper_EN.pdf?__cf_chl_jschl_tk__=1f6785b653430c75cd9a60a449cdd3b0e6d54fbf-1596184591-0-Ac9QN3PYWEAmMAnvgHXoaU32RIgY2jZZQssg5bwBPvYvRUd6lo-IjnTBVxJRldD7y8CaXqpH1Q0tCP0wKZph4m-qUu5MYpYPg4pfYX8cenqXY9MMAwGnc71kTiTGQ1bjBj20r9tOYgOmtk2BI-0nLibwVnG3PvB-0cqUDXEkwvqoX_HpmfOrmN0ogDVsZ-pRaJcF_M7uk9ZVa_XIEbsNSsM97FIn83Y1qEr1olrhUwOiz6qIhND-Pn-nJeB0yXwctV91V1E9L12uNRX4dTKqY1OZZ58Cfy5_v_3w4rYxTQTKl90aC61F1lgqUpV2kmc9pS8McxXfMLdbaKQ588nKi3HpLs4ZPKDmCGDgOKvfGM6NGpqD71n5OfZbwf3TGxbJbTnNjQl1R-va-_tuPQC7lqGuMaj0PC8cB4eBUbA7mw9u" method="POST" enctype="application/x-www-form-urlencoded">
+    <input type="hidden" name="r" value="9adb82a4512bd2a2f5e2b71216afccf37e993f02-1596184591-0-Af7A+AvsUwv54PVeyxJYSEqG4uGN+1sy0ZacyN6MSzpw1yCQmgUgM324JrAX7hqNfAGZHqaVBjtyLLWhQKskSy8ynFV2Ax2ISFIQ4VmCF3/u3cx6m9j5QjSRkaMFYpzd8u8BMMzYYdoqvSVabaEIZy7NHoc/L4y8wN7ygHiy3dAMXuJHl4cVEuQ/P12YO9fMDGk4JOigdKrdD/DUllmv6oMGTnnvf8SLVY7sBWoChFM0w0RrcckUFvgn4/bB3poiBNutJQNohhgQ/8k4xBypYN0Xnwr99d/oAiXI+O+5qqDjlijDFQzqEK49uR2FebSuJjXMp0tDSUYk52WcQX3Ke5oyPOd4EwZZqiYgVqWYfkBskpkyKiYE10OvGGBVPWR0CnpzawlipQn+AWITDW0EGQOU+pNba+HPeUeNunck/uafmF0gi/23eAcxkTeqmKhlxJM2ruuRAJRBA8/GIZkqeV5cn64vFtoWi9RX3ZKhdPW4orH9sUM2vkncYNsQRxzMj4ANiWktu3BWt4yTxmzENK4E6BX3Lm+mXZTnz9x73Q1xquYfxjenpw7sS2S92Rl6c4DelGtGGPzvNqQj9ngYMU9jBuzVmXnYtCnv2gmmFuVbjpYtQjhCYJWilaMMiGug/LABGADyuxcPSw7ou19s+UxbW5X1UFhwz2k/b1qfm9PCvyFdsLBJrx5Zpl2nFyUITA7VI1gjd6VfW2QCwapBoKNK3LOo8CdN7HXdI1B0JuYnojVhleCyPoSq450G/giWatyE4kp9A0Q7Pa7brBT8CFq+5EKsXjgyLu5JkiF5Ncwdr3aM5vZFF5Lq5Ma3jB6Ln1pHdpTPSxx1xfl+wLAjfstawfJElWT6Rw07wlud+dfH5TCnpvZ1MvIwqQmvQOW0goYzprhZ3LrM7y2VxM2tU8SIAuZ+rJVCkqCG9dtLG7grnCIxxS00MjSdA0PWLrmiMLCdDwxQ9r3jkkvOhL33Uba4wL1sTK7kbKXfhU9YnLMI8iPueswJqF9GdyHLbNLeXE5FdGPx1W3NKIxFlesVRUi3yNW4BT4iHDlJ2RBH2Ve1MQ2elZwD22j/0Fg2OOIwRX9drzgFkpKuYEU82agetBzT+YCzv+54KmkRQ45I2n0ccb1PU11oGVU/TmT60SKj2V6dxf4mkUONSKfwR0EVVHyHbC8admE1Tc33drVwxL76KFU3vJNWJgSfsqycI7Oqrm5SnKcyL9KqQ3O/iTzQBlgj+RP5B1l3qHWVISFf+VtkHB0s6DJyWS3nMkI/6jssZe+LldfBlkdSvm7aIYYQOjVN0UlU3TzhoM2p6vDa0LyUm58BYHcCkxxoPGmgxC3rXl6mYl06Xg4jscEjLAm0iWb4exk6wgQ6Xf4JNFr7psjyRMMa3IiOPTAdsf9KJ7LUEnRtsrff/UFEPsrjr/frz60XBZ4b3sNFJgBaVnDDSKNilLM1zz4L8hG2pwC3ucOuTnM6Cc/pSCwHiL4yOslLfJM="/>
+    <input type="hidden" value="85389c7db00148d7170a162d4c9d3ee6" id="jschl-vc" name="jschl_vc"/>
     <!-- <input type="hidden" value="" id="jschl-vc" name="jschl_vc"/> -->
-    <input type="hidden" name="pass" value="1596154003.414-orIBgDS3kR"/>
+    <input type="hidden" name="pass" value="1596184595.172-Uvc+daYXD4"/>
     <input type="hidden" id="jschl-answer" name="jschl_answer"/>
   </form>
   
-  <div id="trk_jschal_nojs" style="background-image:url('/cdn-cgi/images/trace/jschal/nojs/transparent.gif?ray=5bb313205c5af2b0')"> </div>
+  <div id="trk_jschal_nojs" style="background-image:url('/cdn-cgi/images/trace/jschal/nojs/transparent.gif?ray=5bb5fdfed812f2e0')"> </div>
 </div>
 
           
           <div class="attribution">
             DDoS protection by <a href="https://www.cloudflare.com/5xx-error-landing?utm_source=iuam" target="_blank">Cloudflare</a>
             <br />
-            <span class="ray_id">Ray ID: <code>5bb313205c5af2b0</code></span>
+            <span class="ray_id">Ray ID: <code>5bb5fdfed812f2e0</code></span>
           </div>
       </td>
      

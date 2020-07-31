@@ -426,7 +426,7 @@ var zilla_likes = {"ajaxurl":"https:\/\/mascoin.co\/wp-admin\/admin-ajax.php"};
     </div>
     <div class="col-md-5">
         <div class="wpdm-button-area mb-3 p-3 card">
-            <a class='wpdm-download-link download-on-click btn btn-primary ' rel='nofollow' href='#' data-downloadurl="https://mascoin.co/download/emas-coin-white-paper/?wpdmdl=6819&refresh=5f235f336eb351596153651">Download</a>
+            <a class='wpdm-download-link download-on-click btn btn-primary ' rel='nofollow' href='#' data-downloadurl="https://mascoin.co/download/emas-coin-white-paper/?wpdmdl=6819&refresh=5f23d66f38d391596184175">Download</a>
         </div>
         <ul class="list-group ml-0 mb-2">
             <li class="list-group-item d-flex justify-content-between align-items-center wpdm_hide wpdm_remove_empty">

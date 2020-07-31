@@ -30,7 +30,7 @@ Inserter uses those files as a source for new urls to crawl.
 The purpose of the database is to store the urls to crawl and also to facilitate fail-recovery. 
 It also enhances workflow among crawlers and scrappers, so that the parallelism can be easily implemented. 
 ![Table schemas](docs/table_schemas.png)
-I have created an API interface to provide the fail-recovery system and also an efficient communication <br>
+I have created an API interface to provide the fail-recovery system and also an efficient communication. <br>
 It contains the following functions and procedures:<br>
 - **FUNCTION fn_get_ieos(crawler_name URLS.crawler%TYPE)** <br>
 Sends the list of urls to crawl that have either status_code FAILURE or NULL<br>
@@ -53,9 +53,9 @@ Updates the status_code and also includes the time-stamp of crawling of the give
 Prerequisites:
 - **You need to have Docker with the docker-compose installed on your machine**
 
-To run the program you just need to run the .bat script, which will execute the following commands:
+To run the program you just need to run the .bat script, which will execute the following command:
 ```shell script
-docker-compose -f docker\docker-compose\crawler-scrapper-architecture.yml up
+docker-compose -f docker\docker-compose\crawler-scrapper-architecture.yml up --build
 ```
 
  Post Script:<br>
